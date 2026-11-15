@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manga-reconstruction"
+version = "3.3.0.dev1"
+description = "Pixel-preserving webtoon reconstruction with local visual review"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.4,<14", "numpy>=1.26,<3", "opencv-python-headless>=4.10,<6", "Flask>=3.0,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+manga-tool = "manga_tool.__main__:main"
+
+[tool.setuptools.package-data]
+manga_tool = ["static/*"]
+
+[tool.setuptools.packages.find]
+include = ["manga_tool*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["large: representative 200–500 full-size strip stress and interruption tests"]

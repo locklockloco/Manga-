@@ -1,0 +1,8 @@
+# V3.1 changes
+
+- Fixed completed-job reuse returning the wrong chapter. Input paths, chapter, processing settings, full source fingerprints, preserved originals and immutable revisions are validated before any completed return or legacy migration. The complete input plan is saved before import. Same-size/same-timestamp source replacement is detected.
+- Fixed output synchronization trusting projection metadata. Every current file is hashed; damaged, truncated, missing or replaced named copies are rebuilt via checksum-verified, fsynced, atomic staging. Recovery removes recognizable interrupted staging files under the writer lock. A damaged authoritative revision fails clearly without replacing good artwork or destroying history.
+- Improved complete-illustration recall by distinguishing enclosing composition borders from internal clothing, weapons, faces and architectural lines. Outlined floating balloons are retained with their drawing. True short/colored gutters and overlapping layouts preserve alternatives.
+- Separated ordinary unchanged source seams, uncertain used joins, actual integrity risks and unused source adjacencies. Native panel edges and faint halos no longer dominate the high-risk cutoff queue. Exact faint-detail coverage warnings remain recoverable.
+- Added full neighboring original-strip inspection, native zoom, source links, risk sorting and separate human-review state while retaining existing editing features.
+- Added focused identity, repair, recall, risk and large-batch regressions. Fresh final-version 200/500 measurements and release limits are in FIX_REPORT.md; no test count is a promise of perfect artwork extraction.

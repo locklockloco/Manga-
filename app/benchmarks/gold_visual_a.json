@@ -1,0 +1,909 @@
+{
+  "annotation_method": "manual_visual_inspection",
+  "reviewer": "assistant",
+  "human_approved": false,
+  "provisional": true,
+  "chapter": "Leviathan Episode5",
+  "coordinate_convention": "Global original chapter pixels [x0,y0,x1,y1], half-open.",
+  "annotation_limitations": "Assistant visually reviewed annotations, not independent human ground truth. Bounds include small safety margins and approximate pale brush fades. Do not imply human approval or universal correctness.",
+  "regions": [
+    {
+      "id": "LV5_A01",
+      "bounds": [
+        0,
+        430,
+        690,
+        2344
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Opening establishing scene: clouded sky, CAN WE narration, ruined tower and sea. The seam at1280 crosses the sky/tower composition; both original strips belong to this complete illustration. White rows above430 and below2344 separate the composition from subsequent text.",
+      "baseline_reference": "CH05_P001",
+      "source_ids": [
+        "S0001",
+        "S0002"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0001",
+          "original_name": "17390035339991854_Leviathan_5-RITA_AND_I__2__0001.jpg",
+          "source_bounds": [
+            0,
+            430,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            430,
+            690,
+            1280
+          ]
+        },
+        {
+          "source_id": "S0002",
+          "original_name": "17390035341343706_Leviathan_5-RITA_AND_I__2__0002.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1064
+          ],
+          "chapter_bounds": [
+            0,
+            1280,
+            690,
+            2344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A02",
+      "bounds": [
+        60,
+        5688,
+        628,
+        6192
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Campfire close-up with both CRACKLE sound effects extending beyond the narrow central frame. Preserve the full spread of integrated lettering, flames and logs; surrounding whitespace is exterior.",
+      "baseline_reference": "CH05_P004",
+      "source_ids": [
+        "S0005"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0005",
+          "original_name": "17390035348468908_Leviathan_5-RITA_AND_I__2__0005.jpg",
+          "source_bounds": [
+            60,
+            568,
+            628,
+            1072
+          ],
+          "chapter_bounds": [
+            60,
+            5688,
+            628,
+            6192
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A03",
+      "bounds": [
+        54,
+        6458,
+        628,
+        7000
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Two children beside the campfire within a continuous rectangular cracked-wall composition. Includes seated boy, turned-away girl, fire, floor and full frame. Both outside white margins are exterior. This is not the title card despite the old P005 reference in an earlier run.",
+      "baseline_reference": "CH05_P005",
+      "source_ids": [
+        "S0006"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0006",
+          "original_name": "173900353261496_Leviathan_5-RITA_AND_I__2__0006.jpg",
+          "source_bounds": [
+            54,
+            58,
+            628,
+            600
+          ],
+          "chapter_bounds": [
+            54,
+            6458,
+            628,
+            7000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A04",
+      "bounds": [
+        196,
+        7184,
+        491,
+        7616
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Small tall inset of girl reaching toward crab, complete feet, crab and two SCRAB effects. Border is visible on all four sides; large surrounding white page area is exterior.",
+      "baseline_reference": "CH05_P006",
+      "source_ids": [
+        "S0006"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0006",
+          "original_name": "173900353261496_Leviathan_5-RITA_AND_I__2__0006.jpg",
+          "source_bounds": [
+            196,
+            784,
+            491,
+            1216
+          ],
+          "chapter_bounds": [
+            196,
+            7184,
+            491,
+            7616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A05",
+      "bounds": [
+        0,
+        7732,
+        690,
+        8900
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Boy pulling weapon line with top IF WE WANT TO SURVIVE thought balloon and lower I HAVE TO GET FOOD FROM THE SEA balloon. Both spiky balloons overlap the same composition; intentional white balloon space must stay.",
+      "baseline_reference": "CH05_P007",
+      "source_ids": [
+        "S0007"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0007",
+          "original_name": "17390035328709634_Leviathan_5-RITA_AND_I__2__0007.jpg",
+          "source_bounds": [
+            0,
+            52,
+            690,
+            1220
+          ],
+          "chapter_bounds": [
+            0,
+            7732,
+            690,
+            8900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A06",
+      "bounds": [
+        0,
+        9128,
+        620,
+        9766
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Portrait of boy holding weapon with IF IT COMES BACK spiky balloon and CLACK at bottom-left. Top balloon protrudes outside the rectangular art border, so crop begins above that border and extends to native left edge. Next lower balloon is separated by a genuine white gap and leads into the following composition.",
+      "baseline_reference": "CH05_P008",
+      "source_ids": [
+        "S0008"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0008",
+          "original_name": "17390035331584674_Leviathan_5-RITA_AND_I__2__0008.jpg",
+          "source_bounds": [
+            0,
+            168,
+            620,
+            806
+          ],
+          "chapter_bounds": [
+            0,
+            9128,
+            620,
+            9766
+          ]
+        }
+      ],
+      "separate_from": [
+        "LV5_A19"
+      ]
+    },
+    {
+      "id": "LV5_A07",
+      "bounds": [
+        0,
+        11108,
+        564,
+        11976
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Injured father portrait with THAT WAS DADS LAST WISH AFTERALL thought balloon protruding top-left. Keep the full glasses, face, blood marks and rectangular border. Source seam11520 crosses face context and is not a crop boundary.",
+      "baseline_reference": "CH05_P009",
+      "source_ids": [
+        "S0009",
+        "S0010"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0009",
+          "original_name": "17390035335006957_Leviathan_5-RITA_AND_I__2__0009.jpg",
+          "source_bounds": [
+            0,
+            868,
+            564,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            11108,
+            564,
+            11520
+          ]
+        },
+        {
+          "source_id": "S0010",
+          "original_name": "17390035337728392_Leviathan_5-RITA_AND_I__2__0010.jpg",
+          "source_bounds": [
+            0,
+            0,
+            564,
+            456
+          ],
+          "chapter_bounds": [
+            0,
+            11520,
+            564,
+            11976
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A08",
+      "bounds": [
+        0,
+        13336,
+        690,
+        14282
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Full boy-and-weapon action with enormous blue PSSSH integrated above the art and continuous motion strokes through both strips. Feet and complete visible weapon remain; the title-like SFX must not be classified as isolated lettering.",
+      "baseline_reference": "CH05_P012",
+      "source_ids": [
+        "S0011",
+        "S0012"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0011",
+          "original_name": "17390035295916348_Leviathan_5-RITA_AND_I__2__0011.jpg",
+          "source_bounds": [
+            0,
+            536,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            13336,
+            690,
+            14080
+          ]
+        },
+        {
+          "source_id": "S0012",
+          "original_name": "17390035297994011_Leviathan_5-RITA_AND_I__2__0012.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            202
+          ],
+          "chapter_bounds": [
+            0,
+            14080,
+            690,
+            14282
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A09",
+      "bounds": [
+        0,
+        15656,
+        690,
+        16368
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Original close-up of hand operating mechanism with long PSHHH effect protruding above the rectangular border. It is an intentionally close original drawing, not an algorithmic zoom. Preserve native full-width weapon and spray.",
+      "baseline_reference": "CH05_P014",
+      "source_ids": [
+        "S0013"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0013",
+          "original_name": "17390035299543335_Leviathan_5-RITA_AND_I__2__0013.jpg",
+          "source_bounds": [
+            0,
+            296,
+            690,
+            1008
+          ],
+          "chapter_bounds": [
+            0,
+            15656,
+            690,
+            16368
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A10",
+      "bounds": [
+        0,
+        16712,
+        690,
+        18024
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Large action scene with boy lunging/weapon, orange BOOM above frame and long PSHHH below frame. Bottom sound-effect descender continues beyond17860; cut must extend through18024 to preserve it. Seam17920 crosses that descender and must not become final cut.",
+      "baseline_reference": "CH05_P015",
+      "source_ids": [
+        "S0014",
+        "S0015"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0014",
+          "original_name": "17390035303422091_Leviathan_5-RITA_AND_I__2__0014.jpg",
+          "source_bounds": [
+            0,
+            72,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            16712,
+            690,
+            17920
+          ]
+        },
+        {
+          "source_id": "S0015",
+          "original_name": "17390035306132557_Leviathan_5-RITA_AND_I__2__0015.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            104
+          ],
+          "chapter_bounds": [
+            0,
+            17920,
+            690,
+            18024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A11",
+      "bounds": [
+        36,
+        20272,
+        676,
+        20944
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Girl holding crab in glass beside crying boy, with top BOTA ARE YOU CRYING bubble, NO response, and AARGH extending below the frame. All text is embedded; source seam20480 crosses the composition.",
+      "baseline_reference": "CH05_P018",
+      "source_ids": [
+        "S0016",
+        "S0017"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0016",
+          "original_name": "17390035308485201_Leviathan_5-RITA_AND_I__2__0016.jpg",
+          "source_bounds": [
+            36,
+            1072,
+            676,
+            1280
+          ],
+          "chapter_bounds": [
+            36,
+            20272,
+            676,
+            20480
+          ]
+        },
+        {
+          "source_id": "S0017",
+          "original_name": "17390035311521811_Leviathan_5-RITA_AND_I__2__0017.jpg",
+          "source_bounds": [
+            36,
+            0,
+            676,
+            464
+          ],
+          "chapter_bounds": [
+            36,
+            20480,
+            676,
+            20944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A12",
+      "bounds": [
+        0,
+        23262,
+        690,
+        24064
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Children looking into stairwell. Top THE CRABS WENT DOWN THIS WAY bubble and lower THERE COULD BE SOMETHING USEFUL balloon protrude beyond the frame and remain part of this scene. Keep full-width masonry, figures and staircase.",
+      "baseline_reference": "CH05_P022",
+      "source_ids": [
+        "S0019"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0019",
+          "original_name": "17390035316496867_Leviathan_5-RITA_AND_I__2__0019.jpg",
+          "source_bounds": [
+            0,
+            222,
+            690,
+            1024
+          ],
+          "chapter_bounds": [
+            0,
+            23262,
+            690,
+            24064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A13",
+      "bounds": [
+        0,
+        26886,
+        690,
+        28136
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Boy seen from behind descending into a dark stairwell with long purple WHOOO integrated above and through the black field. The black background is intentional content, never blank gutter.",
+      "baseline_reference": "CH05_P026",
+      "source_ids": [
+        "S0022"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0022",
+          "original_name": "17390035307369435_Leviathan_5-RITA_AND_I__2__0022.jpg",
+          "source_bounds": [
+            0,
+            6,
+            690,
+            1256
+          ],
+          "chapter_bounds": [
+            0,
+            26886,
+            690,
+            28136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A14",
+      "bounds": [
+        27,
+        31266,
+        604,
+        32608
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Tall reaction portrait including spiky WHA WHAT THE thought balloon, spear shaft, hand and torso. Full border encloses one scene; seam32000 is internal. Top-left balloon protrusion and all bottom shaft pixels must remain.",
+      "baseline_reference": "CH05_P030",
+      "source_ids": [
+        "S0025",
+        "S0026"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0025",
+          "original_name": "17390035314271468_Leviathan_5-RITA_AND_I__2__0025.jpg",
+          "source_bounds": [
+            27,
+            546,
+            604,
+            1280
+          ],
+          "chapter_bounds": [
+            27,
+            31266,
+            604,
+            32000
+          ]
+        },
+        {
+          "source_id": "S0026",
+          "original_name": "17390035317024728_Leviathan_5-RITA_AND_I__2__0026.jpg",
+          "source_bounds": [
+            27,
+            0,
+            604,
+            608
+          ],
+          "chapter_bounds": [
+            27,
+            32000,
+            604,
+            32608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A15",
+      "bounds": [
+        0,
+        35542,
+        690,
+        36008
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Underwater landscape with diver, spear and foreground fish. All image edges are visible in original source; the large fish is intentionally cut by the native left frame. Seam35840 crosses underwater composition, so reconstruct across it.",
+      "baseline_reference": "CH05_P034",
+      "source_ids": [
+        "S0028",
+        "S0029"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0028",
+          "original_name": "17390035298686558_Leviathan_5-RITA_AND_I__2__0028.jpg",
+          "source_bounds": [
+            0,
+            982,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            35542,
+            690,
+            35840
+          ]
+        },
+        {
+          "source_id": "S0029",
+          "original_name": "17390035300683136_Leviathan_5-RITA_AND_I__2__0029.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            168
+          ],
+          "chapter_bounds": [
+            0,
+            35840,
+            690,
+            36008
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A16",
+      "bounds": [
+        60,
+        2456,
+        660,
+        2692
+      ],
+      "classification": "dialogue_or_narration_only",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Standalone narrative text ...MAKE IT HERE? on white between the opening sea scene and title page. Both text lines belong together as story-critical dialogue and must remain recoverable in review, not be exported as an illustration or discarded as isolated SFX.",
+      "baseline_reference": "CH05_P002",
+      "source_ids": [
+        "S0002",
+        "S0003"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0002",
+          "original_name": "17390035341343706_Leviathan_5-RITA_AND_I__2__0002.jpg",
+          "source_bounds": [
+            60,
+            1176,
+            660,
+            1280
+          ],
+          "chapter_bounds": [
+            60,
+            2456,
+            660,
+            2560
+          ]
+        },
+        {
+          "source_id": "S0003",
+          "original_name": "17390035344452364_Leviathan_5-RITA_AND_I__2__0003.jpg",
+          "source_bounds": [
+            60,
+            0,
+            660,
+            132
+          ],
+          "chapter_bounds": [
+            60,
+            2560,
+            660,
+            2692
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A17",
+      "bounds": [
+        0,
+        3408,
+        690,
+        4970
+      ],
+      "classification": "title_or_credits",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Leviathan logo, CHAPTER5 RITA AND I Part2 and LEE KYUNG TAK / NOH MI YOUNG credits on black-blue fading paint. This is a chapter title/credit card, not story illustration. Retain the full pale brush fade and all credits separately for review.",
+      "baseline_reference": "CH05_P003",
+      "source_ids": [
+        "S0003",
+        "S0004"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0003",
+          "original_name": "17390035344452364_Leviathan_5-RITA_AND_I__2__0003.jpg",
+          "source_bounds": [
+            0,
+            848,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            3408,
+            690,
+            3840
+          ]
+        },
+        {
+          "source_id": "S0004",
+          "original_name": "17390035346598475_Leviathan_5-RITA_AND_I__2__0004.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1130
+          ],
+          "chapter_bounds": [
+            0,
+            3840,
+            690,
+            4970
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A18",
+      "bounds": [
+        43,
+        12248,
+        654,
+        12616
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Single bordered panel of boy inspecting weapon controls. Clear white gutter below12616 separates this from a different small weapon-control panel near12790. Current baseline P010 is this one complete scene; old V2 compound-ID correspondence requires source-coordinate matching.",
+      "baseline_reference": "CH05_P010",
+      "source_ids": [
+        "S0010"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0010",
+          "original_name": "17390035337728392_Leviathan_5-RITA_AND_I__2__0010.jpg",
+          "source_bounds": [
+            43,
+            728,
+            654,
+            1096
+          ],
+          "chapter_bounds": [
+            43,
+            12248,
+            654,
+            12616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A19",
+      "bounds": [
+        0,
+        9768,
+        690,
+        10968
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Second independent boy-and-weapon illustration with I WILL PROTECT RITA WITH THIS SWORD thought balloon. Original context shows previous portrait frame ends around9760, then a narrow white corridor before this balloons spikes. Keep this scene distinct from A06, but retain full integrated balloon, arms, torso and weapon through bottom border10964. Seam10240 crosses the figure and must be joined exactly. This is the manually checked split of the earlier compound before original source-coordinate9128\u201310968.",
+      "baseline_reference": "CH05_P008_s01",
+      "source_ids": [
+        "S0008",
+        "S0009"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0008",
+          "original_name": "17390035331584674_Leviathan_5-RITA_AND_I__2__0008.jpg",
+          "source_bounds": [
+            0,
+            808,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            9768,
+            690,
+            10240
+          ]
+        },
+        {
+          "source_id": "S0009",
+          "original_name": "17390035335006957_Leviathan_5-RITA_AND_I__2__0009.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            728
+          ],
+          "chapter_bounds": [
+            0,
+            10240,
+            690,
+            10968
+          ]
+        }
+      ],
+      "separate_from": [
+        "LV5_A06"
+      ]
+    }
+  ]
+}
