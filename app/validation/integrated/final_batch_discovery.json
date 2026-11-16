@@ -1,0 +1,52 @@
+{
+  "200": {
+    "current_final_detector": true,
+    "sources": 200,
+    "native_dimensions": [
+      690,
+      1280
+    ],
+    "proposals": 200,
+    "elapsed_discovery_seconds": 24.504812711995328,
+    "all_unchanged_except_preserved_manual_correction": true,
+    "geometry_differences": {
+      "detector": [
+        [
+          32,
+          40,
+          658,
+          1240
+        ]
+      ],
+      "saved_manual": [
+        [
+          31,
+          40,
+          658,
+          1240
+        ]
+      ]
+    },
+    "source_hashes_unchanged": true,
+    "peak_process_lifetime_rss_bytes": 112013312,
+    "scope": "Final scene discovery replay; combined with separately validated final lossless encoder on all existing 700 native crops. Synthetic safety/performance test, not artwork accuracy."
+  },
+  "500": {
+    "current_final_detector": true,
+    "sources": 500,
+    "native_dimensions": [
+      690,
+      1280
+    ],
+    "proposals": 500,
+    "elapsed_discovery_seconds": 60.88041081800475,
+    "all_unchanged_except_preserved_manual_correction": true,
+    "geometry_differences": {
+      "detector": [],
+      "saved_manual": []
+    },
+    "source_hashes_unchanged": true,
+    "peak_process_lifetime_rss_bytes": 184381440,
+    "scope": "Final scene discovery replay; combined with separately validated final lossless encoder on all existing 700 native crops. Synthetic safety/performance test, not artwork accuracy."
+  }
+}

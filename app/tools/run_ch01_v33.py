@@ -18,6 +18,7 @@ def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('originals',type=Path);ap.add_argument('output',type=Path)
+    ap.add_argument('--windows-only',action='store_true')
     args=ap.parse_args()
     paths=sorted([p for p in args.originals.iterdir() if p.suffix.lower() in IMAGE_EXTENSIONS],key=lambda p:natural_key(p.name))
     if len(paths)!=194:ap.error('Requires exactly 194 original Chapter 1 strips; verify reading order first')
@@ -28,6 +29,7 @@ def main():
     before={str(p):sha(p) for p in paths}
     report={'visual_acceptance':'NOT_PERFORMED','source_before':before,'runs':{}}
     for name,a,b in [('opening',1,18),('text',55,65),('portrait',175,179),('full',1,194)]:
+        if args.windows_only and name=='full':continue
         folder=args.output/(name+'_input');folder.mkdir(parents=True,exist_ok=True)
         for i,p in enumerate(paths[a-1:b],a):
             dest=folder/f'S{i:04d}{p.suffix.lower()}'

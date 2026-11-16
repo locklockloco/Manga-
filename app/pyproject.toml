@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "manga-reconstruction"
-version = "3.3.0.dev1"
+version = "3.3.0.dev2"
 description = "Pixel-preserving webtoon reconstruction with local visual review"
 requires-python = ">=3.10"
 dependencies = ["Pillow>=10.4,<14", "numpy>=1.26,<3", "opencv-python-headless>=4.10,<6", "Flask>=3.0,<4"]

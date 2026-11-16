@@ -1,0 +1,20 @@
+{
+  "200": {
+    "full_resolution_regions": 200,
+    "exact_pixels_compared": 150241200,
+    "mismatches": 0,
+    "prior_png_bytes": 75299190,
+    "sub_filtered_png_bytes": 4441737,
+    "elapsed_seconds": 12.154729469999438,
+    "scope": "Final lossless encoder tested across all existing 200/500-source batch geometry. Scene discovery was not rerun for this encoding-only verification."
+  },
+  "500": {
+    "full_resolution_regions": 500,
+    "exact_pixels_compared": 375600000,
+    "mismatches": 0,
+    "prior_png_bytes": 188247587,
+    "sub_filtered_png_bytes": 11104608,
+    "elapsed_seconds": 27.852465326999663,
+    "scope": "Final lossless encoder tested across all existing 200/500-source batch geometry. Scene discovery was not rerun for this encoding-only verification."
+  }
+}

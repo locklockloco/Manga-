@@ -1,0 +1,156 @@
+{
+  "reference_version": 1,
+  "frozen_before_detector_tuning": true,
+  "review_status": "reviewer_assessed_unapproved",
+  "reviewer": "assistant",
+  "scope": "Source-inspected approximate content windows, NOT exact gold crop rectangles; do not compute pixel-accurate boundary claims.",
+  "units": [
+    {
+      "id": "opening_earth",
+      "source_start": "S0001",
+      "local_y0": 730,
+      "source_end": "S0002",
+      "local_y1": 90,
+      "description": "glowing complete planet; source seam inside drawing"
+    },
+    {
+      "id": "opening_city",
+      "source_start": "S0002",
+      "local_y0": 850,
+      "source_end": "S0004",
+      "local_y1": 1280,
+      "description": "diagonal submerged city composition"
+    },
+    {
+      "id": "opening_predator",
+      "source_start": "S0005",
+      "local_y0": 60,
+      "source_end": "S0005",
+      "local_y1": 1110,
+      "description": "diagonal predator composition"
+    },
+    {
+      "id": "opening_marine_life",
+      "source_start": "S0005",
+      "local_y0": 870,
+      "source_end": "S0007",
+      "local_y1": 1280,
+      "description": "continuous whale/fish/buildings composition"
+    },
+    {
+      "id": "ruined_city_wide",
+      "source_start": "S0011",
+      "local_y0": 170,
+      "source_end": "S0011",
+      "local_y1": 1100,
+      "description": "wide ruined city panorama"
+    },
+    {
+      "id": "ruined_car",
+      "source_start": "S0011",
+      "local_y0": 1200,
+      "source_end": "S0012",
+      "local_y1": 350,
+      "description": "car drawing across source seam"
+    },
+    {
+      "id": "ruined_buildings",
+      "source_start": "S0012",
+      "local_y0": 460,
+      "source_end": "S0013",
+      "local_y1": 1160,
+      "description": "diagonal building/street scene"
+    },
+    {
+      "id": "ruined_street",
+      "source_start": "S0014",
+      "local_y0": 45,
+      "source_end": "S0014",
+      "local_y1": 365,
+      "description": "short street/fish drawing"
+    },
+    {
+      "id": "enter_water",
+      "source_start": "S0014",
+      "local_y0": 750,
+      "source_end": "S0015",
+      "local_y1": 1280,
+      "description": "boot and divers continuous composition"
+    },
+    {
+      "id": "divers_overhead",
+      "source_start": "S0016",
+      "local_y0": 270,
+      "source_end": "S0016",
+      "local_y1": 1090,
+      "description": "two divers full composition"
+    },
+    {
+      "id": "child_portrait",
+      "source_start": "S0017",
+      "local_y0": 100,
+      "source_end": "S0017",
+      "local_y1": 760,
+      "description": "child helmet portrait"
+    },
+    {
+      "id": "night_entry",
+      "source_start": "S0017",
+      "local_y0": 1170,
+      "source_end": "S0018",
+      "local_y1": 560,
+      "description": "two divers approaching entrance"
+    },
+    {
+      "id": "father_helmet",
+      "source_start": "S0018",
+      "local_y0": 740,
+      "source_end": "S0019",
+      "local_y1": 150,
+      "description": "father helmet composition crosses window endpoint; evaluate using neighbors"
+    },
+    {
+      "id": "man_portrait",
+      "source_start": "S0176",
+      "local_y0": 725,
+      "source_end": "S0177",
+      "local_y1": 110,
+      "description": "full framed man including hair, glasses, neck; external balloon optional"
+    }
+  ],
+  "negative_source_windows": [
+    {
+      "sources": [
+        "S0056"
+      ],
+      "content": "standalone THATS HOW... narration and word fragments"
+    },
+    {
+      "sources": [
+        "S0059"
+      ],
+      "content": "AND..."
+    },
+    {
+      "sources": [
+        "S0060"
+      ],
+      "content": "THERES AN ABSOLUTE RULE... detached narration"
+    },
+    {
+      "sources": [
+        "S0061",
+        "S0062"
+      ],
+      "content": "isolated diagonal RIIING outside real portrait frame"
+    },
+    {
+      "sources": [
+        "S0065"
+      ],
+      "content": "NO ITS THE MOMENT... standalone narration"
+    }
+  ],
+  "holdout": "CH05 original sources 39-42; do not tune to those sources",
+  "supplied_expectations_sha256": "d1bbdae66859ccdcbdc93ed5d735d47ed47950bd08d4a3048e4bc35701557e84"
+}

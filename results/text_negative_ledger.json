@@ -1,0 +1,225 @@
+[
+  {
+    "baseline_id": "CH01_P002",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0002",
+        "source_order": 2,
+        "source_bounds": [
+          75,
+          351,
+          611,
+          712
+        ],
+        "chapter_bounds": [
+          75,
+          1631,
+          611,
+          1992
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P003",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0002",
+        "source_order": 2,
+        "source_bounds": [
+          362,
+          476,
+          540,
+          532
+        ],
+        "chapter_bounds": [
+          362,
+          1756,
+          540,
+          1812
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P004",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0002",
+        "source_order": 2,
+        "source_bounds": [
+          138,
+          531,
+          304,
+          583
+        ],
+        "chapter_bounds": [
+          138,
+          1811,
+          304,
+          1863
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P010",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0005",
+        "source_order": 5,
+        "source_bounds": [
+          221,
+          368,
+          476,
+          446
+        ],
+        "chapter_bounds": [
+          221,
+          5488,
+          476,
+          5566
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P014",
+    "baseline_exported": false,
+    "original_source_regions": [
+      {
+        "source_id": "S0006",
+        "source_order": 6,
+        "source_bounds": [
+          115,
+          304,
+          596,
+          561
+        ],
+        "chapter_bounds": [
+          115,
+          6704,
+          596,
+          6961
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P015",
+    "baseline_exported": false,
+    "original_source_regions": [
+      {
+        "source_id": "S0006",
+        "source_order": 6,
+        "source_bounds": [
+          162,
+          304,
+          436,
+          372
+        ],
+        "chapter_bounds": [
+          162,
+          6704,
+          436,
+          6772
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P026",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0007",
+        "source_order": 7,
+        "source_bounds": [
+          187,
+          600,
+          510,
+          1280
+        ],
+        "chapter_bounds": [
+          187,
+          8280,
+          510,
+          8960
+        ]
+      },
+      {
+        "source_id": "S0008",
+        "source_order": 8,
+        "source_bounds": [
+          187,
+          0,
+          510,
+          41
+        ],
+        "chapter_bounds": [
+          187,
+          8960,
+          510,
+          9001
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P031",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0011",
+        "source_order": 11,
+        "source_bounds": [
+          52,
+          56,
+          636,
+          297
+        ],
+        "chapter_bounds": [
+          52,
+          12856,
+          636,
+          13097
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  },
+  {
+    "baseline_id": "CH01_P032",
+    "baseline_exported": true,
+    "original_source_regions": [
+      {
+        "source_id": "S0011",
+        "source_order": 11,
+        "source_bounds": [
+          146,
+          56,
+          464,
+          237
+        ],
+        "chapter_bounds": [
+          146,
+          12856,
+          464,
+          13037
+        ]
+      }
+    ],
+    "new_standalone_pngs": []
+  }
+]

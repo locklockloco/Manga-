@@ -1,0 +1,119 @@
+{
+  "scope": "Only Chapter 5 sources 39-42; NOT Chapter 1 acceptance",
+  "checks": [
+    {
+      "prior_region": "CH05_P058",
+      "current_region": "CH05_P001",
+      "dimensions": [
+        690,
+        2362
+      ],
+      "exact_original_pixel_match": true,
+      "source_regions": [
+        {
+          "source_id": "S0001",
+          "source_order": 1,
+          "source_bounds": [
+            0,
+            175,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            175,
+            690,
+            1280
+          ]
+        },
+        {
+          "source_id": "S0002",
+          "source_order": 2,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1257
+          ],
+          "chapter_bounds": [
+            0,
+            1280,
+            690,
+            2537
+          ]
+        }
+      ]
+    },
+    {
+      "prior_region": "CH05_P059",
+      "current_region": "CH05_P002",
+      "dimensions": [
+        690,
+        2033
+      ],
+      "exact_original_pixel_match": true,
+      "source_regions": [
+        {
+          "source_id": "S0003",
+          "source_order": 3,
+          "source_bounds": [
+            0,
+            319,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            2879,
+            690,
+            3840
+          ]
+        },
+        {
+          "source_id": "S0004",
+          "source_order": 4,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1072
+          ],
+          "chapter_bounds": [
+            0,
+            3840,
+            690,
+            4912
+          ]
+        }
+      ]
+    }
+  ],
+  "source_bytes_unchanged": true,
+  "full_resolution_strips": 4,
+  "human_approved": 0,
+  "assistant_inspection": "Contact sheet inspected; does not grant verification",
+  "performance": {
+    "elapsed_seconds": 9.642761886992957,
+    "stage_seconds": {
+      "SETUP": 0.05027713799790945,
+      "IMPORT": 0.47956032599904574,
+      "INDEX": 1.1733369390130974,
+      "SEGMENT": 5.915560632987763,
+      "EXPORT": 0.4607575140107656,
+      "QA": 1.1754906779970042,
+      "CONTACT_SHEETS": 0.3796299520035973
+    },
+    "resources": {
+      "disk_free_bytes": 2678214656,
+      "disk_total_bytes": 8417406976,
+      "available_memory_bytes": 8012656640,
+      "process_memory_bytes": 100048896,
+      "peak_process_memory_bytes": 147771392,
+      "observed_at": "2026-11-15T20:36:53.117988+00:00"
+    },
+    "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+    "output_disk_bytes": 17110403,
+    "algorithm_version": "v3.3-review-tasks-1",
+    "status": "REVIEW_REQUIRED"
+  }
+}

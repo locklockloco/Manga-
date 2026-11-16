@@ -1,0 +1,15 @@
+{
+  "scope": "Actual CH01 portrait workspace COPY; no human approvals",
+  "steps": [
+    "save native boundary edit",
+    "ignore image as reversible metadata",
+    "restore to illustration proposal",
+    "persist across browser reload",
+    "split via visible UI button",
+    "select adjacent sections and merge via UI",
+    "undo via UI",
+    "redo via UI"
+  ],
+  "js_errors": [],
+  "status": "PASS"
+}

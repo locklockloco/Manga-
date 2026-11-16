@@ -123,7 +123,14 @@ class Chapter:
                         piece.putalpha(ImageChops.multiply(original_alpha,alpha))
                     # Row chunks keep output working memory bounded for very wide strips too.
                     for row in range(piece.height):
-                        data = compressor.compress(b'\0' + piece.crop((0, row, piece.width, row+1)).tobytes())
+                        # PNG Sub is exactly reversible and keeps one scanline
+                        # in memory. It compresses adjacent painted pixels much
+                        # better than the prior always-None scanline filter.
+                        import numpy as np
+                        raw=np.frombuffer(piece.crop((0,row,piece.width,row+1)).tobytes(),dtype=np.uint8)
+                        filtered=raw.copy();channels=4 if png_mode=='RGBA' else 3
+                        filtered[channels:]=raw[channels:]-raw[:-channels]
+                        data=compressor.compress(b'\1'+filtered.tobytes())
                         if data:
                             chunk(f, b'IDAT', data)
                 chunk(f, b'IDAT', compressor.flush())

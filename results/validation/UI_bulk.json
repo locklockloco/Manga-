@@ -1,0 +1,9 @@
+{
+  "case": "Real CH01 metadata text rows; manual UI bulk ignore, no automatic approvals",
+  "status": "PASS",
+  "js_errors": [],
+  "selected": [
+    "CH01_P002",
+    "CH01_P004"
+  ]
+}

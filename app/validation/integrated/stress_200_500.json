@@ -1,0 +1,96 @@
+{
+  "200": {
+    "elapsed_including_crash_recovery_and_repair_seconds": 315.0047391190019,
+    "source_count": 200,
+    "source_size": [
+      690,
+      1280
+    ],
+    "exported_regions": 200,
+    "source_hashes_unchanged": true,
+    "saved_correction_preserved": true,
+    "controlled_crash_test": true,
+    "repair": {
+      "checked": 200,
+      "repaired": 1,
+      "intact": 199
+    },
+    "pixel_fidelity": {
+      "status": "PASS",
+      "checked_regions": 200,
+      "failed_regions": [],
+      "pixels_compared": 150241200
+    },
+    "performance": {
+      "elapsed_seconds": 279.0527977629972,
+      "stage_seconds": {
+        "EXPORT": 27.943772976010223,
+        "IMPORT": 5.752052409006865,
+        "INDEX": 94.42999262998637,
+        "SEGMENT": 113.81307060499967,
+        "SETUP": 0.0705102719948627,
+        "QA": 37.12415193200286
+      },
+      "resources": {
+        "disk_free_bytes": 383234048,
+        "disk_total_bytes": 8417406976,
+        "available_memory_bytes": 7207628800,
+        "process_memory_bytes": 106803200,
+        "peak_process_memory_bytes": 145235968,
+        "observed_at": "2026-11-16T01:09:29.015692+00:00"
+      },
+      "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+      "output_disk_bytes": 172939577,
+      "algorithm_version": "integrated-composition-graph-1",
+      "status": "REVIEW_REQUIRED"
+    },
+    "qa_status": "REVIEW_REQUIRED"
+  },
+  "500": {
+    "elapsed_including_crash_recovery_and_repair_seconds": 794.2555141060002,
+    "source_count": 500,
+    "source_size": [
+      690,
+      1280
+    ],
+    "exported_regions": 500,
+    "source_hashes_unchanged": true,
+    "saved_correction_preserved": false,
+    "controlled_crash_test": false,
+    "repair": {
+      "checked": 500,
+      "repaired": 1,
+      "intact": 499
+    },
+    "pixel_fidelity": {
+      "status": "PASS",
+      "checked_regions": 500,
+      "failed_regions": [],
+      "pixels_compared": 375600000
+    },
+    "performance": {
+      "elapsed_seconds": 701.1309583419934,
+      "stage_seconds": {
+        "SETUP": 0.04792489700776059,
+        "IMPORT": 7.889487694003037,
+        "INDEX": 168.95789199399587,
+        "SEGMENT": 290.09624540200457,
+        "EXPORT": 139.15885925399198,
+        "QA": 94.96900147300039
+      },
+      "resources": {
+        "disk_free_bytes": 92782592,
+        "disk_total_bytes": 8417406976,
+        "available_memory_bytes": 7303827456,
+        "process_memory_bytes": 201093120,
+        "peak_process_memory_bytes": 356577280,
+        "observed_at": "2026-11-16T01:21:44.769656+00:00"
+      },
+      "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+      "output_disk_bytes": 470724095,
+      "algorithm_version": "integrated-composition-graph-1",
+      "status": "REVIEW_REQUIRED"
+    },
+    "qa_status": "REVIEW_REQUIRED"
+  }
+}

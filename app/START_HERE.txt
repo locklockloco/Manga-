@@ -1,0 +1,7 @@
+Manga Cropping — integrated Chapter 1 supervised-review build (3.3.0.dev2)
+
+Read README.md and INTEGRATED_REPORT.md. Automatic crops remain unapproved.
+Install Python 3.10+ on Windows/macOS/Linux. This Python app does not run directly on iPhone/iPad.
+After installing dependencies, run: python start.py
+For the new detector use a NEW output folder; retain existing workspaces/corrections.
+Actual Chapter 1 was tested; two confirmed compound merges and other review tasks remain.

@@ -1,0 +1,298 @@
+{
+  "readiness": "NOT READY FOR UNATTENDED EXTRACTION; supervised development candidate",
+  "baseline_runs": {
+    "opening": {
+      "regions": 1,
+      "exported_regions": 0,
+      "metadata_records": 1,
+      "performance": {
+        "elapsed_seconds": 16.839892175004934,
+        "stage_seconds": {
+          "SETUP": 0.04280692599422764,
+          "IMPORT": 0.639024401010829,
+          "INDEX": 5.614141327998368,
+          "SEGMENT": 5.915714175993344,
+          "EXPORT": 0.005954887004918419,
+          "QA": 4.547970480998629,
+          "CONTACT_SHEETS": 0.06673633100581355
+        },
+        "resources": {
+          "disk_free_bytes": 2559643648,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 8131817472,
+          "process_memory_bytes": 85057536,
+          "peak_process_memory_bytes": 128061440,
+          "observed_at": "2026-11-16T00:29:30.414927+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 18092247,
+        "algorithm_version": "v3.3-review-tasks-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "text": {
+      "regions": 40,
+      "exported_regions": 31,
+      "metadata_records": 9,
+      "performance": {
+        "elapsed_seconds": 33.190207114996156,
+        "stage_seconds": {
+          "SETUP": 0.017383191006956622,
+          "IMPORT": 0.49157011999341194,
+          "INDEX": 3.304924491996644,
+          "SEGMENT": 21.174800179011072,
+          "EXPORT": 2.0284411039901897,
+          "QA": 3.4591932510084007,
+          "CONTACT_SHEETS": 2.7061266629898455
+        },
+        "resources": {
+          "disk_free_bytes": 2516643840,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 8070594560,
+          "process_memory_bytes": 104677376,
+          "peak_process_memory_bytes": 142561280,
+          "observed_at": "2026-11-16T00:30:03.640205+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 41029003,
+        "algorithm_version": "v3.3-review-tasks-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "portrait": {
+      "regions": 9,
+      "exported_regions": 9,
+      "metadata_records": 0,
+      "performance": {
+        "elapsed_seconds": 15.87702925800113,
+        "stage_seconds": {
+          "SETUP": 0.016441704996395856,
+          "IMPORT": 0.4278108520084061,
+          "INDEX": 1.3552483579987893,
+          "SEGMENT": 10.613151144003496,
+          "EXPORT": 0.6980640909896465,
+          "QA": 1.6662285570055246,
+          "CONTACT_SHEETS": 1.0886681400006637
+        },
+        "resources": {
+          "disk_free_bytes": 2494054400,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7991623680,
+          "process_memory_bytes": 102789120,
+          "peak_process_memory_bytes": 170119168,
+          "observed_at": "2026-11-16T00:30:19.550858+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 21557436,
+        "algorithm_version": "v3.3-review-tasks-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "full": {
+      "regions": 176,
+      "exported_regions": 162,
+      "metadata_records": 14,
+      "performance": {
+        "elapsed_seconds": 394.21462455700384,
+        "stage_seconds": {
+          "SETUP": 0.02961336399312131,
+          "IMPORT": 3.643820583994966,
+          "INDEX": 64.60748686500301,
+          "SEGMENT": 221.14360522900824,
+          "EXPORT": 30.411667552994913,
+          "QA": 54.90585954400012,
+          "CONTACT_SHEETS": 19.463576313006342
+        },
+        "resources": {
+          "disk_free_bytes": 1969545216,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7531245568,
+          "process_memory_bytes": 130637824,
+          "peak_process_memory_bytes": 240672768,
+          "observed_at": "2026-11-16T00:36:53.918549+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 455434602,
+        "algorithm_version": "v3.3-review-tasks-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    }
+  },
+  "integrated_runs": {
+    "opening": {
+      "regions": 19,
+      "exported_regions": 16,
+      "metadata_records": 3,
+      "performance": {
+        "elapsed_seconds": 28.500474080006825,
+        "stage_seconds": {
+          "SETUP": 0.02574428699153941,
+          "IMPORT": 0.644874735007761,
+          "INDEX": 5.594994383995072,
+          "SEGMENT": 12.223977847999777,
+          "EXPORT": 2.701718915006495,
+          "QA": 5.211837378999917,
+          "CONTACT_SHEETS": 2.0899521699902834
+        },
+        "resources": {
+          "disk_free_bytes": 630165504,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7943098368,
+          "process_memory_bytes": 104280064,
+          "peak_process_memory_bytes": 132788224,
+          "observed_at": "2026-11-16T01:38:28.844167+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 49893676,
+        "algorithm_version": "integrated-composition-graph-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "text": {
+      "regions": 15,
+      "exported_regions": 10,
+      "metadata_records": 5,
+      "performance": {
+        "elapsed_seconds": 19.478806836996228,
+        "stage_seconds": {
+          "SETUP": 0.01617582699691411,
+          "IMPORT": 0.5321606760116993,
+          "INDEX": 3.4148758629889926,
+          "SEGMENT": 6.752468527003657,
+          "EXPORT": 1.8715166540059727,
+          "QA": 4.598010436995537,
+          "CONTACT_SHEETS": 2.2865575649921084
+        },
+        "resources": {
+          "disk_free_bytes": 594505728,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7670788096,
+          "process_memory_bytes": 107302912,
+          "peak_process_memory_bytes": 139120640,
+          "observed_at": "2026-11-16T01:38:48.375742+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 25938728,
+        "algorithm_version": "integrated-composition-graph-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "portrait": {
+      "regions": 12,
+      "exported_regions": 8,
+      "metadata_records": 4,
+      "performance": {
+        "elapsed_seconds": 12.536260738997953,
+        "stage_seconds": {
+          "SETUP": 0.014001361996633932,
+          "IMPORT": 0.572742949007079,
+          "INDEX": 2.012369789998047,
+          "SEGMENT": 5.051611408998724,
+          "EXPORT": 1.0894726629921934,
+          "QA": 2.475519167011953,
+          "CONTACT_SHEETS": 1.3140012649964774
+        },
+        "resources": {
+          "disk_free_bytes": 563007488,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7486529536,
+          "process_memory_bytes": 106987520,
+          "peak_process_memory_bytes": 140357632,
+          "observed_at": "2026-11-16T01:39:00.976587+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 17565461,
+        "algorithm_version": "integrated-composition-graph-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    },
+    "full": {
+      "regions": 288,
+      "exported_regions": 213,
+      "metadata_records": 75,
+      "performance": {
+        "elapsed_seconds": 359.32007937801245,
+        "stage_seconds": {
+          "SETUP": 0.055430341992178,
+          "IMPORT": 5.347208191000391,
+          "INDEX": 69.6697929760121,
+          "SEGMENT": 143.3987348669907,
+          "EXPORT": 54.55585706100101,
+          "QA": 57.48505175500759,
+          "CONTACT_SHEETS": 28.797865321990685
+        },
+        "resources": {
+          "disk_free_bytes": 212865024,
+          "disk_total_bytes": 8417406976,
+          "available_memory_bytes": 7092248576,
+          "process_memory_bytes": 130994176,
+          "peak_process_memory_bytes": 175235072,
+          "observed_at": "2026-11-16T01:45:00.497443+00:00"
+        },
+        "note": "Stage wall durations include checkpoint work; peak RSS is process-lifetime, excludes OCR child peak. Not a write-I/O measurement.",
+        "output_disk_bytes": 522889639,
+        "algorithm_version": "integrated-composition-graph-1",
+        "status": "REVIEW_REQUIRED"
+      }
+    }
+  },
+  "portrait": {
+    "before_bounds": [
+      68,
+      1951,
+      556,
+      2672
+    ],
+    "after_bounds": [
+      156,
+      2005,
+      551,
+      2670
+    ],
+    "before_size": [
+      488,
+      721
+    ],
+    "after_size": [
+      395,
+      665
+    ],
+    "rectangle_area_reduction": 0.2534418271526341,
+    "human_approved": false
+  },
+  "text_negatives": {
+    "frozen_cases": 9,
+    "baseline_exported_negatives": 7,
+    "new_exported_negatives": 0
+  },
+  "real_corrupted_projection_repair": {
+    "checked": 213,
+    "repaired": 1,
+    "intact": 212
+  },
+  "real_identity_rejections": [
+    "This saved job belongs to a different input. Use a new output folder; saved work was not changed.",
+    "Chapter ID differs from this saved workspace. Use a new output folder; saved work was not changed."
+  ],
+  "originals_194_unchanged": true,
+  "full_pixel_fidelity": {
+    "status": "PASS",
+    "checked_regions": 213,
+    "failed_regions": [],
+    "pixels_compared": 118891504
+  },
+  "source_integrity": {
+    "status": "PASS",
+    "failed_sources": 0
+  },
+  "source_review_tasks": {
+    "status": "REVIEW_REQUIRED",
+    "count": 75
+  },
+  "unresolved_known_cases": [
+    "Overlapping fish display frames S0067-S0068 remain merged automatically",
+    "Children and weapon panels S0144-S0145 remain merged automatically",
+    "Additional source-inspected compound layouts require review; no whole-chapter precision/recall claim"
+  ],
+  "validation_scope": "Assistant source-inspected, UNAPPROVED. No 100% correctness claim. Coarse frozen content windows are not complete panel-level gold; full-chapter precision/recall NOT ESTABLISHED."
+}

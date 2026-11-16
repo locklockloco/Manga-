@@ -16,7 +16,7 @@ from .chapter import Chapter
 # Avoid OpenCV creating one native thread per CPU for every local job.
 cv2.setNumThreads(1)
 
-ALGORITHM_VERSION = 'v3.3-review-tasks-1'
+ALGORITHM_VERSION = 'integrated-composition-graph-1'
 MAX_WINDOW_HEIGHT = 3600
 MAX_ANALYSIS_DIMENSION = 1800
 
@@ -714,7 +714,7 @@ def _floating_text_attachments(chapter,ranges,padding):
             attached.append(ranges[index]);index+=1
     return attached,evidence
 
-def propose(root,sources,min_gutter=36,padding=4,vertical=True,checkpoint=None):
+def legacy_propose(root,sources,min_gutter=36,padding=4,vertical=True,checkpoint=None):
     chapter=Chapter(root,sources)
     settings={'min_gutter':int(min_gutter),'padding':int(padding),'vertical':bool(vertical)}
     rows,stats=index_profiles(root,sources,checkpoint=checkpoint,algorithm_settings=settings)
@@ -984,3 +984,42 @@ def assess(chapter,bounds,joins):
             'classification_evidence':classification_suggestion['evidence'],
             'internal_gutter_candidates':internal,'large_component_boxes_preview':boxes,
             'source_regions':regions,'join_ids':[j['id'] for j in crossed]}
+
+
+def propose_compositions(root,sources,min_gutter=36,padding=4,vertical=True,checkpoint=None):
+    if not vertical:
+        # Preserve the explicit caller choice to keep side-by-side sections
+        # together; the composition graph discovers independent 2D islands.
+        return legacy_propose(root,sources,min_gutter,padding,vertical,checkpoint)
+    from .composition import discover
+    proposals,info=discover(root,sources,checkpoint=checkpoint,padding=padding)
+    if not any(not p.get('metadata_only') for p in proposals):
+        # Monochrome or very flat art needs the original ink-aware path. Never
+        # declare absent chromatic seeds to mean absent artwork.
+        return legacy_propose(root,sources,min_gutter,padding,vertical,checkpoint)
+    rows,stats=index_profiles(root,sources,checkpoint=checkpoint)
+    chapter=Chapter(root,sources)
+    # Unrepresented ink is retained as compact source tasks, not PNG fragments.
+    covered=np.zeros(chapter.height,dtype=bool)
+    for p in proposals:
+        covered[p['bounds'][1]:p['bounds'][3]]=True
+        p['algorithm_version']=ALGORITHM_VERSION
+    pending=(rows>5)&(rows<chapter.width*.45)&~covered
+    for a,b in runs(~pending):
+        if b-a<24 and a>0 and b<len(pending):pending[a:b]=True
+    for a,b in runs(pending):
+        if b-a<12:continue
+        bounds=tight_bounds(chapter,[0,a,chapter.width,b],padding)
+        if not bounds:continue
+        proposals.append({'bounds':bounds,'metadata_only':True,'review_task':True,
+                          'recommended_classification':'uncertain','proposal_role':'primary',
+                          'algorithm_version':ALGORITHM_VERSION,
+                          'detection_reason':'unrepresented_ink_context_no_text_or_art_claim',
+                          'ambiguity_flags':['TEXT_OR_MONOCHROME_ART_CLASSIFICATION_REQUIRED'],
+                          'source_review':{'original_bounds':bounds,'boundary_markers':[],
+                                           'resolution':'CLASSIFY_UNREPRESENTED_CONTENT'}})
+    return proposals,stats,[]
+
+# Backward-compatible geometry API. New chapter orchestration uses
+# propose_compositions; legacy CV callers keep their existing group schema.
+propose=legacy_propose

@@ -120,7 +120,7 @@ def run_chapter(input_path,output_dir,chapter='CH01',include_all=False,min_gutte
                 # rewriting version evidence on an already reviewed workspace.
                 m['algorithm_version']=detection.ALGORITHM_VERSION
                 checkpoint('SEGMENT',0,len(sources))
-                proposals,stats,gutters=detection.propose(root,sources,int(min_gutter),int(padding),vertical,checkpoint=lambda stage,current,total,**info:checkpoint('SEGMENT' if stage=='INDEX' else stage,current,total,**info))
+                proposals,stats,gutters=detection.propose_compositions(root,sources,int(min_gutter),int(padding),vertical,checkpoint=lambda stage,current,total,**info:checkpoint('SEGMENT' if stage=='INDEX' else stage,current,total,**info))
                 proposals.sort(key=lambda q:(q['bounds'][1],q['bounds'][0] if reading_direction=='ltr' else -q['bounds'][2],q.get('proposal_role')=='child'))
                 groups={}
                 for i,proposal in enumerate(proposals,1):
@@ -165,7 +165,7 @@ def run_chapter(input_path,output_dir,chapter='CH01',include_all=False,min_gutte
                         for q in panels:
                             if q is not parent:q['parent_id']=parent['id']
                 m['analysis']['gutters']=gutters
-                m['analysis']['artwork_policy']={'priority':'complete_illustrated_artwork','speech_preservation_required':False,'ignored_text_records':sum(bool(q.get('metadata_only')) for q in m['panels']),'human_verified':False}
+                m['analysis']['artwork_policy']={'priority':'complete_illustrated_artwork','speech_preservation_required':False,'metadata_records':sum(bool(q.get('metadata_only')) for q in m['panels']),'source_tasks':sum(bool(q.get('review_task')) for q in m['panels']),'confirmed_text_metadata':sum(q.get('classification') in {'dialogue_or_narration_only','standalone_sfx'} and bool(q.get('metadata_only')) for q in m['panels']),'human_verified':False}
                 p.audit(m,'v3_segmentation',regions=len(m['panels']),algorithm=detection.ALGORITHM_VERSION)
                 p.save_manifest(root,m,operation='checkpoint',project=False)
             reader=Chapter(root,sources)

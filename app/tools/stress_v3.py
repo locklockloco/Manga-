@@ -20,6 +20,7 @@ import subprocess
 import sys
 import time
 import zlib
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -291,9 +292,13 @@ def png_rows(path):
                     compressed=decompressor.unconsumed_tail
                     while len(pending)>=stride:
                         row=bytes(pending[:stride]); del pending[:stride]
-                        assert row[0]==0, 'Expected the application streaming exporter to use PNG filter 0'
+                        assert row[0] in (0,1), 'Unsupported streaming PNG filter'
+                        decoded=row[1:]
+                        if row[0]==1:
+                            values=np.frombuffer(decoded,dtype=np.uint8).reshape(-1,channels)
+                            decoded=(np.cumsum(values,axis=0,dtype=np.uint64)%256).astype(np.uint8).tobytes()
                         seen+=1
-                        yield row[1:]
+                        yield decoded
             if kind==b'IEND':
                 break
     assert seen==height and not pending and decompressor.eof, 'Incomplete PNG rows'

@@ -1,0 +1,1 @@
+UNAPPROVED ASSISTANT CORRECTIONS, not automatic detection successes. Main full-gallery outputs remain unchanged. See INTEGRATED_REPORT.md. Native pixels copied from original strips; no invented occluded art.

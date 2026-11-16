@@ -1,0 +1,9 @@
+{
+  "exit_code": 0,
+  "wall_seconds_all_three_windows_and_full": 420.78272391000064,
+  "sampled_peak_process_tree_rss_bytes": 153088000,
+  "sampling_seconds": 0.25,
+  "observed_parent_write_bytes_max": 1632714752,
+  "OS_child_process_max_rss_bytes": 175235072,
+  "limitations": "Sampled peak can miss short spikes. Parent write counter is observed, excludes separately attributed OCR I/O. Shared host; not a controlled speed comparison."
+}

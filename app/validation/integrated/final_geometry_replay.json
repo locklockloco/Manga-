@@ -1,0 +1,8 @@
+{
+  "sources": 194,
+  "proposed": 288,
+  "saved": 288,
+  "all_geometry_and_metadata_equal": true,
+  "elapsed_seconds": 68.74039373100095,
+  "scope": "Full 194-source discovery replay after progress-only CLASSIFY checkpoint addition; no export or QA timing claim."
+}

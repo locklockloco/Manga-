@@ -1,0 +1,687 @@
+[
+  {
+    "case": "fish",
+    "original_strip_ids": [
+      "S0067",
+      "S0068"
+    ],
+    "automatic_parent": {
+      "bounds": [
+        0,
+        216,
+        690,
+        1640
+      ],
+      "proposal_role": "primary",
+      "recommended_classification": "illustration",
+      "metadata_only": false,
+      "review_task": false,
+      "detection_reason": "streaming_painted_composition_graph",
+      "ambiguity_flags": [
+        "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+      ],
+      "text_evidence": {
+        "text_only": false,
+        "method": "not_confirmed"
+      },
+      "composition_graph": {
+        "original_envelope": [
+          0,
+          216,
+          690,
+          1640
+        ],
+        "rectangular_frame_supported_trim": false,
+        "seed_area": 53591,
+        "color_entropy": 5.2474,
+        "dominant_color_fraction": 0.2128,
+        "semantic_proof": false,
+        "native_rectangle_limitation": true
+      },
+      "algorithm_version": "integrated-composition-graph-1",
+      "id": "CH01_P002",
+      "revision": 1,
+      "status": "NEEDS_REVIEW",
+      "active": true,
+      "classification": "illustration",
+      "review": {},
+      "flags": [
+        "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+        "UNVERIFIED_JOIN",
+        "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE",
+        "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+      ],
+      "confidence": 0.68,
+      "metrics": {
+        "foreground_fraction": 0.8649,
+        "boundary_content_fraction": 0.346
+      },
+      "qa_checks": {
+        "panel_boundaries": "UNRESOLVED",
+        "joining": "UNRESOLVED",
+        "classification": "UNRESOLVED",
+        "human_verification": "NOT_VERIFIED"
+      },
+      "classification_suggestion": "illustration",
+      "classification_candidates": [
+        "illustration",
+        "embedded_sfx_or_bubble"
+      ],
+      "classification_evidence": {
+        "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+        "foreground_fraction": 0.8649,
+        "colored_foreground_fraction": 0.2886,
+        "component_count": 1,
+        "dominant_ink_color_fraction": 0.1266,
+        "small_repeated_components": false,
+        "semantic_completeness": "UNRESOLVED",
+        "classification_requires_review": true,
+        "never_delete_text": true
+      },
+      "internal_gutter_candidates": [],
+      "large_component_boxes_preview": [
+        [
+          0,
+          8,
+          678,
+          1392
+        ]
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0001",
+          "source_order": 1,
+          "source_bounds": [
+            0,
+            216,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            216,
+            690,
+            1280
+          ]
+        },
+        {
+          "source_id": "S0002",
+          "source_order": 2,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            360
+          ],
+          "chapter_bounds": [
+            0,
+            1280,
+            690,
+            1640
+          ]
+        }
+      ],
+      "join_ids": [
+        "S0001--S0002"
+      ],
+      "order": 2,
+      "file": "review/revisions/CH01_P002_r0001_78310c27290edb.png",
+      "sha256": "a4ff611a0b852e7529b54b19f9746b34cbb8b74253c4507f1b662b227d5aa3d0",
+      "dimensions": [
+        690,
+        1424
+      ],
+      "output_file": "proposals/CH01_P002.png",
+      "reconstruction_group": "CH01_P002_R"
+    },
+    "assisted_children": [
+      {
+        "active": true,
+        "algorithm_version": "integrated-composition-graph-1",
+        "ambiguity_flags": [
+          "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+        ],
+        "bounds": [
+          0,
+          223,
+          628,
+          982
+        ],
+        "classification": "illustration",
+        "classification_candidates": [
+          "illustration",
+          "embedded_sfx_or_bubble"
+        ],
+        "classification_evidence": {
+          "classification_requires_review": true,
+          "colored_foreground_fraction": 0.2475,
+          "component_count": 1,
+          "dominant_ink_color_fraction": 0.1838,
+          "foreground_fraction": 0.9913,
+          "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+          "never_delete_text": true,
+          "semantic_completeness": "UNRESOLVED",
+          "small_repeated_components": false
+        },
+        "classification_suggestion": "illustration",
+        "composition_graph": {
+          "color_entropy": 5.2474,
+          "dominant_color_fraction": 0.2128,
+          "native_rectangle_limitation": true,
+          "original_envelope": [
+            0,
+            216,
+            690,
+            1640
+          ],
+          "rectangular_frame_supported_trim": false,
+          "seed_area": 53591,
+          "semantic_proof": false
+        },
+        "confidence": 0.78,
+        "detection_reason": "streaming_painted_composition_graph",
+        "dimensions": [
+          628,
+          759
+        ],
+        "file": "review/revisions/CH01_P002_r0003_1523309e32d9f2.png",
+        "flags": [
+          "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+          "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE"
+        ],
+        "id": "CH01_P002",
+        "internal_gutter_candidates": [],
+        "join_ids": [],
+        "large_component_boxes_preview": [
+          [
+            0,
+            1,
+            628,
+            759
+          ]
+        ],
+        "metadata_only": false,
+        "metrics": {
+          "boundary_content_fraction": 0.7192,
+          "foreground_fraction": 0.9913
+        },
+        "order": 2,
+        "output_file": "proposals/CH01_P002.png",
+        "proposal_role": "primary",
+        "qa_checks": {
+          "classification": "UNRESOLVED",
+          "human_verification": "NOT_VERIFIED",
+          "joining": "NOT_APPLICABLE",
+          "panel_boundaries": "UNRESOLVED"
+        },
+        "recommended_classification": "illustration",
+        "reconstruction_group": null,
+        "review": {},
+        "review_task": false,
+        "revision": 3,
+        "sha256": "c067e5d0d008d95c26790f9920198373a75fb999bb7a121b0b4ed82ad2abf492",
+        "source_regions": [
+          {
+            "chapter_bounds": [
+              0,
+              223,
+              628,
+              982
+            ],
+            "source_bounds": [
+              0,
+              223,
+              628,
+              982
+            ],
+            "source_id": "S0001",
+            "source_order": 1
+          }
+        ],
+        "status": "NEEDS_REVIEW",
+        "text_evidence": {
+          "method": "not_confirmed",
+          "text_only": false
+        }
+      },
+      {
+        "bounds": [
+          122,
+          901,
+          690,
+          1633
+        ],
+        "classification": "illustration",
+        "classification_candidates": [
+          "illustration",
+          "embedded_sfx_or_bubble"
+        ],
+        "classification_evidence": {
+          "classification_requires_review": true,
+          "colored_foreground_fraction": 0.3192,
+          "component_count": 1,
+          "dominant_ink_color_fraction": 0.1055,
+          "foreground_fraction": 0.9983,
+          "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+          "never_delete_text": true,
+          "semantic_completeness": "UNRESOLVED",
+          "small_repeated_components": false
+        },
+        "classification_suggestion": "illustration",
+        "confidence": 0.68,
+        "derived_from": "CH01_P002",
+        "dimensions": [
+          568,
+          732
+        ],
+        "file": "review/revisions/CH01_P002_s01_r0002_3eb80f3d2a484f.png",
+        "flags": [
+          "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+          "UNVERIFIED_JOIN",
+          "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE"
+        ],
+        "id": "CH01_P002_s01",
+        "internal_gutter_candidates": [],
+        "join_ids": [
+          "S0001--S0002"
+        ],
+        "large_component_boxes_preview": [
+          [
+            0,
+            0,
+            568,
+            731
+          ]
+        ],
+        "metrics": {
+          "boundary_content_fraction": 0.7577,
+          "foreground_fraction": 0.9983
+        },
+        "order": 3,
+        "output_file": "proposals/CH01_P002_s01.png",
+        "polygon": null,
+        "qa_checks": {
+          "classification": "UNRESOLVED",
+          "human_verification": "NOT_VERIFIED",
+          "joining": "UNRESOLVED",
+          "panel_boundaries": "UNRESOLVED"
+        },
+        "reconstruction_group": "CH01_P002_s01_R",
+        "review": {},
+        "revision": 2,
+        "sha256": "0444a10907c1efdc46de3137551db515fd7fe19a395f909a2fcaf8ede6b190e1",
+        "source_regions": [
+          {
+            "chapter_bounds": [
+              122,
+              901,
+              690,
+              1280
+            ],
+            "source_bounds": [
+              122,
+              901,
+              690,
+              1280
+            ],
+            "source_id": "S0001",
+            "source_order": 1
+          },
+          {
+            "chapter_bounds": [
+              122,
+              1280,
+              690,
+              1633
+            ],
+            "source_bounds": [
+              122,
+              0,
+              690,
+              353
+            ],
+            "source_id": "S0002",
+            "source_order": 2
+          }
+        ],
+        "status": "NEEDS_REVIEW"
+      }
+    ],
+    "approval": "UNAPPROVED_ASSISTANT_CORRECTION",
+    "automatic_success": false,
+    "geometry_limitation": "Upper fish rectangle necessarily contains a small area of the overlapping lower frame; no occluded pixels invented."
+  },
+  {
+    "case": "boat_weapon",
+    "original_strip_ids": [
+      "S0144",
+      "S0145"
+    ],
+    "automatic_parent": {
+      "bounds": [
+        0,
+        404,
+        690,
+        2440
+      ],
+      "proposal_role": "primary",
+      "recommended_classification": "illustration",
+      "metadata_only": false,
+      "review_task": false,
+      "detection_reason": "streaming_painted_composition_graph",
+      "ambiguity_flags": [
+        "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+      ],
+      "text_evidence": {
+        "text_only": false,
+        "method": "not_confirmed"
+      },
+      "composition_graph": {
+        "original_envelope": [
+          0,
+          404,
+          690,
+          2440
+        ],
+        "rectangular_frame_supported_trim": false,
+        "seed_area": 80725,
+        "color_entropy": 5.0574,
+        "dominant_color_fraction": 0.125,
+        "semantic_proof": false,
+        "native_rectangle_limitation": true
+      },
+      "algorithm_version": "integrated-composition-graph-1",
+      "id": "CH01_P002",
+      "revision": 1,
+      "status": "NEEDS_REVIEW",
+      "active": true,
+      "classification": "illustration",
+      "review": {},
+      "flags": [
+        "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+        "UNVERIFIED_JOIN",
+        "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE",
+        "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+      ],
+      "confidence": 0.68,
+      "metrics": {
+        "foreground_fraction": 0.9292,
+        "boundary_content_fraction": 0.7423
+      },
+      "qa_checks": {
+        "panel_boundaries": "UNRESOLVED",
+        "joining": "UNRESOLVED",
+        "classification": "UNRESOLVED",
+        "human_verification": "NOT_VERIFIED"
+      },
+      "classification_suggestion": "illustration",
+      "classification_candidates": [
+        "illustration",
+        "embedded_sfx_or_bubble"
+      ],
+      "classification_evidence": {
+        "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+        "foreground_fraction": 0.9292,
+        "colored_foreground_fraction": 0.5321,
+        "component_count": 9,
+        "dominant_ink_color_fraction": 0.0966,
+        "small_repeated_components": true,
+        "semantic_completeness": "UNRESOLVED",
+        "classification_requires_review": true,
+        "never_delete_text": true
+      },
+      "internal_gutter_candidates": [],
+      "large_component_boxes_preview": [
+        [
+          0,
+          4,
+          474,
+          1395
+        ]
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0001",
+          "source_order": 1,
+          "source_bounds": [
+            0,
+            404,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            404,
+            690,
+            1280
+          ]
+        },
+        {
+          "source_id": "S0002",
+          "source_order": 2,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1160
+          ],
+          "chapter_bounds": [
+            0,
+            1280,
+            690,
+            2440
+          ]
+        }
+      ],
+      "join_ids": [
+        "S0001--S0002"
+      ],
+      "order": 2,
+      "file": "review/revisions/CH01_P002_r0001_810d17e0f849e8.png",
+      "sha256": "926ce3420e49bd49fa917945715b519ec91afe0f6544180362fbc19070219ba9",
+      "dimensions": [
+        690,
+        2036
+      ],
+      "output_file": "proposals/CH01_P002.png",
+      "reconstruction_group": "CH01_P002_R"
+    },
+    "assisted_children": [
+      {
+        "active": true,
+        "algorithm_version": "integrated-composition-graph-1",
+        "ambiguity_flags": [
+          "COMPOSITION_REQUIRES_VISUAL_REVIEW"
+        ],
+        "bounds": [
+          0,
+          400,
+          690,
+          1280
+        ],
+        "classification": "illustration",
+        "classification_candidates": [
+          "illustration",
+          "embedded_sfx_or_bubble"
+        ],
+        "classification_evidence": {
+          "classification_requires_review": true,
+          "colored_foreground_fraction": 0.6825,
+          "component_count": 4,
+          "dominant_ink_color_fraction": 0.088,
+          "foreground_fraction": 0.9474,
+          "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+          "never_delete_text": true,
+          "semantic_completeness": "UNRESOLVED",
+          "small_repeated_components": true
+        },
+        "classification_suggestion": "illustration",
+        "composition_graph": {
+          "color_entropy": 5.0574,
+          "dominant_color_fraction": 0.125,
+          "native_rectangle_limitation": true,
+          "original_envelope": [
+            0,
+            404,
+            690,
+            2440
+          ],
+          "rectangular_frame_supported_trim": false,
+          "seed_area": 80725,
+          "semantic_proof": false
+        },
+        "confidence": 0.78,
+        "detection_reason": "streaming_painted_composition_graph",
+        "dimensions": [
+          690,
+          880
+        ],
+        "file": "review/revisions/CH01_P002_r0003_16559825f9e73f.png",
+        "flags": [
+          "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+          "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE"
+        ],
+        "id": "CH01_P002",
+        "internal_gutter_candidates": [],
+        "join_ids": [],
+        "large_component_boxes_preview": [
+          [
+            0,
+            11,
+            690,
+            880
+          ]
+        ],
+        "metadata_only": false,
+        "metrics": {
+          "boundary_content_fraction": 0.6892,
+          "foreground_fraction": 0.9474
+        },
+        "order": 2,
+        "output_file": "proposals/CH01_P002.png",
+        "proposal_role": "primary",
+        "qa_checks": {
+          "classification": "UNRESOLVED",
+          "human_verification": "NOT_VERIFIED",
+          "joining": "NOT_APPLICABLE",
+          "panel_boundaries": "UNRESOLVED"
+        },
+        "recommended_classification": "illustration",
+        "reconstruction_group": null,
+        "review": {},
+        "review_task": false,
+        "revision": 3,
+        "sha256": "d3a09a0997f718c93db638486f659831611ffedd5fc48822e2ba2fb527362643",
+        "source_regions": [
+          {
+            "chapter_bounds": [
+              0,
+              400,
+              690,
+              1280
+            ],
+            "source_bounds": [
+              0,
+              400,
+              690,
+              1280
+            ],
+            "source_id": "S0001",
+            "source_order": 1
+          }
+        ],
+        "status": "NEEDS_REVIEW",
+        "text_evidence": {
+          "method": "not_confirmed",
+          "text_only": false
+        }
+      },
+      {
+        "bounds": [
+          0,
+          1480,
+          690,
+          2444
+        ],
+        "classification": "illustration",
+        "classification_candidates": [
+          "illustration",
+          "embedded_sfx_or_bubble"
+        ],
+        "classification_evidence": {
+          "classification_requires_review": true,
+          "colored_foreground_fraction": 0.4636,
+          "component_count": 2,
+          "dominant_ink_color_fraction": 0.1283,
+          "foreground_fraction": 0.9757,
+          "method": "weak_color_sparsity_and_component_geometry_no_ocr",
+          "never_delete_text": true,
+          "semantic_completeness": "UNRESOLVED",
+          "small_repeated_components": false
+        },
+        "classification_suggestion": "illustration",
+        "confidence": 0.78,
+        "derived_from": "CH01_P002",
+        "dimensions": [
+          690,
+          964
+        ],
+        "file": "review/revisions/CH01_P002_s01_r0002_53a07b1dea497c.png",
+        "flags": [
+          "AUTOMATIC_BOUNDARIES_REQUIRE_REVIEW",
+          "BOUNDARY_INTERSECTS_CONTENT_OR_SOURCE_EDGE"
+        ],
+        "id": "CH01_P002_s01",
+        "internal_gutter_candidates": [],
+        "join_ids": [],
+        "large_component_boxes_preview": [
+          [
+            0,
+            0,
+            690,
+            953
+          ]
+        ],
+        "metrics": {
+          "boundary_content_fraction": 0.6983,
+          "foreground_fraction": 0.9757
+        },
+        "order": 3,
+        "output_file": "proposals/CH01_P002_s01.png",
+        "polygon": null,
+        "qa_checks": {
+          "classification": "UNRESOLVED",
+          "human_verification": "NOT_VERIFIED",
+          "joining": "NOT_APPLICABLE",
+          "panel_boundaries": "UNRESOLVED"
+        },
+        "reconstruction_group": null,
+        "review": {},
+        "revision": 2,
+        "sha256": "e607c06a676ab5cd35ba8d275983c2094213d1bab8e95248501b016d7dce11e9",
+        "source_regions": [
+          {
+            "chapter_bounds": [
+              0,
+              1480,
+              690,
+              2444
+            ],
+            "source_bounds": [
+              0,
+              200,
+              690,
+              1164
+            ],
+            "source_id": "S0002",
+            "source_order": 2
+          }
+        ],
+        "status": "NEEDS_REVIEW"
+      }
+    ],
+    "approval": "UNAPPROVED_ASSISTANT_CORRECTION",
+    "automatic_success": false,
+    "geometry_limitation": "Speech bubble can be clipped to separate the actual frames."
+  }
+]

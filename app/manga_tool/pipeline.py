@@ -551,11 +551,11 @@ def classify_panel(output_dir,id,classification,note=''):
     root=Path(output_dir)
     with writing(root):
         m=load_manifest(root)
-        p=next((q for q in m['panels'] if q['id']==id and (q['status'] in ACTIVE or q['status']=='IGNORED')),None)
+        p=next((q for q in m['panels'] if q['id']==id and (q['status'] in ACTIVE or q['status'] in {'IGNORED','SOURCE_REVIEW'})),None)
         if p is None:
             raise ValueError('Panel not found')
         before=json.loads(json.dumps(p))
-        p.update(classification=classification,status='NEEDS_REVIEW',review={},revision=p['revision']+1,metadata_only=False,active=True)
+        p.update(classification=classification,status='NEEDS_REVIEW',review={},revision=p['revision']+1,metadata_only=False,review_task=False,active=True)
         p['classification_note']=str(note)
         p['flags']=[f for f in p['flags'] if not f.startswith('CLASSIFIED_')]
         if classification!='illustration':
