@@ -1,0 +1,2177 @@
+{
+  "chapter": "Leviathan Episode 5 \u2014 Rita and I (2)",
+  "annotation_method": "manual_visual_inspection",
+  "reviewer": "assistant",
+  "human_approved": false,
+  "provisional": true,
+  "annotation_scope": "selected_real_region_windows_not_exhaustive_chapter_labels",
+  "coordinate_convention": "Original chapter pixels [x0,y0,x1,y1], right and bottom exclusive.",
+  "annotation_limitations": "Each region was visually inspected against original source context, not accepted because a PNG exported. These are provisional assistant manual annotations, not independently human-certified ground truth. Bounds use small safety margins; pale fades can have a few pixels of ambiguity. Whole chapter false positives and full chapter precision are not measurable from this selected set.",
+  "source_checksums": {
+    "S0001": "e78b40750981dabd0d13275095b7c4bb9b96064bd1217d0e438952beb5500f90",
+    "S0002": "61ce6ccdaeb165f5e0eca62214c4ee670205a44287fb8aafc8417bc35494fd8a",
+    "S0003": "f2e3e023e0e905870135be5cb3f00ddf3d4dffd74439ee525361af1a9f9934b1",
+    "S0004": "88e642e6ff94a59adb2026a199021527b5a920cd5039fb812d80395f27aed376",
+    "S0005": "d0ce3efa5afcda7c8da45a4f47116c32a791992f9897208cc68c68d04a0dc238",
+    "S0006": "922ba0283757c344c7d167be2659086fbf6de87bd265be3c00b6cd36cb6d7914",
+    "S0007": "3f0d5dad08135c57ef37e6804d31b117538dce60d67aea59370ba992a00a89b5",
+    "S0008": "6e27d67e4cf64287dcfe5ce885492be0f6402bfbddfc94054851eef0afad19c8",
+    "S0009": "8048e0a422fee551f80da9a7b1e2de7b984b990f4338071f3647824785517790",
+    "S0010": "cfdbdc93908b09268fdf88b4573303fe3fc9520006763a5e9f53e3701787db28",
+    "S0011": "4954477d5231fb997b67fc9ccfe69506c3877655313c510a7bdb5cd2b2d978c9",
+    "S0012": "bf95bd0d7ee943b22af7d4c0a8105f79e39028cf4b605b22d0c5e75cfff7595b",
+    "S0013": "57d8f73c0a630da6778b84ba086e6ed524bc9e2ac79d32e62df59fd76c0c6c2c",
+    "S0014": "0faef449d712b6216d43e5a8c14c7eeeffa25b51e3a17672a2ad299da1d1be6f",
+    "S0015": "8a218e4ae67dafc722ea698ec9ff9e72dc01ab6ce803c7cc930b326f97c60fad",
+    "S0016": "83d71d28361844f2c4056422f9aec73877d4ea16e171c596c346a5832131efd3",
+    "S0017": "92bd4d3c61804baf1b42fb95d560e3fc92768cc70e23656449293123bb721f0b",
+    "S0018": "8bb1456f0a116a40c49726853a18d89ec137d8356b6342ee7fad525d6b9236b7",
+    "S0019": "52897ec58b536ad714aa02ffc291300106e4a056721bd274070af66009658b7f",
+    "S0020": "f15d8b5041b5e90a5c9e73e9de7a8ae96f8cdfcaf90641479354d251cf72d0ac",
+    "S0021": "25670ff9e56b582b3ea6f59d6870e29ef039f48283c3db3d3c54454298c05ac2",
+    "S0022": "1aa62b8805094a289a5dea48458e8b8346aabcc26821aabeec5fb529770c77b2",
+    "S0023": "2dedbfa2a12354d41210c65ce1a79bd2d8f5b43057c974e4a9ede2c45dc2e7e3",
+    "S0024": "465ab76651928f53acab48794d1c1520b9ff0b84208da3981f30d996649fa908",
+    "S0025": "e45ac38bc17d0d77106d96997a12bdf1c3771faae4c1412bc4e6c3fc01c76758",
+    "S0026": "0e583200f09b03801e767e3bc3b31a247d6e6f60adf9229c27707d1040162a2d",
+    "S0027": "de7293919267fcf03a2645c40cab307dd8e979eefba05eee8f6521dff040a90a",
+    "S0028": "3bbc5156542a4dcb9ce9a3f133907fbd176933306418fb7671cd45a7a9882552",
+    "S0029": "7280071f54e4c782c8d7c83a095c5b51436bb6cbb6100d9cd49d9730929f8a2d",
+    "S0030": "1f71e6436033aa358dff1bbf230e4ee1f3fc3a4d4e5bb7b2ad342e50fe485e61",
+    "S0031": "0279fe4ca19bfe22035953d204d25410373969c6c50418fd68a41732ac937652",
+    "S0032": "2bcd7e38ad252ce53e8f775d94844799b23aa0ea305920448115350266a0cc06",
+    "S0033": "183f1a84a9f1c0d94531e6caa5db4a232dd36fb9c627706c4a9c37cfd7da8eba",
+    "S0034": "f22fe5429026bfd79936a1269cf7b4003811e61498039539248f475dbe983a8c",
+    "S0035": "793c18dd4dffe5424ae62cdd61b7118c3444f5b27959854c7fe6bbf6a929f097",
+    "S0036": "59022379f74fa36004496580993f37f7332c7ffb142f76981c4d50d46b88dd08",
+    "S0037": "7c5a6fa4b43a6076283a84d899a283272ef823500ef8abf0eb634969b472b065",
+    "S0038": "b04b6c48a66b8f0466ac44172061945c8014df5480857e08ad6aa44026fd49c4",
+    "S0039": "959eb296398f0ff5d3dc768883e82ec90ade7b18a2029695c1956bdc855734e2",
+    "S0040": "351fbbdbdd996dd3c4558d96954b2ef6f3421c99c33e8362e7c107321c271639",
+    "S0041": "398cf46dbb9cff139782dec40db1bf424a57685c4aabf3dc84bb54a20e0786f8",
+    "S0042": "b2262d204452ad700a8efb00c9b3ddf33ddb90fbd55fd1927d694ab1d915e529",
+    "S0043": "c899ae0a0b747b46f13ff4a0dbe2e12e1084c7faebd05246cf809a4c6ae9fa07",
+    "S0044": "a50677dd719c1b3df5e7159607eac8266b474214bc63825f707570700a6e169f",
+    "S0045": "d3d5404eed2e634ad63c4f6c6fdc268bee3c0a62459f98f8e3a8321c8090711a",
+    "S0046": "0f6eb414524663c9edba54be594d7b573f9f0a173c147b285bbf21608e567dc9",
+    "S0047": "bd6fa05035853d51cf0a2de7815f8ddbd90b91ff5a2aa670022115ef594d79b3",
+    "S0048": "4595360938e5dcd695cb3af26ad85d24f76cc29e043024387773e3a676c1ed9e",
+    "S0049": "b4ed623af1a673b0507495412972d05ed1cc545f58c60ba0064e4fc09b9a862c",
+    "S0050": "e83ebf4c094ac691209c33075ae8500f076185acad4f1d44682e2e259331a7b8",
+    "S0051": "1827ab687768b95ea3b62fe941ea8c4d9711fe559fb10f4f2c9fb29812572a59",
+    "S0052": "b83c849503479f0767d8e7061cd6d25c0794cc97a10490fadc61bbd2a468329c",
+    "S0053": "8de87ea5c6cc20273c3f54fa5da1d10dfbc66e3d1617974638a443da277bfafd",
+    "S0054": "1b9d4bfef44c8fccba21830cdc8490e0016082d076ef883858800d6f7434a094",
+    "S0055": "f19f23d382313e8dbf2aaf0c192dad973bcca0a179f0abdc4f2158f8ec2d1c09",
+    "S0056": "50fe2c7482839e7b426ce9962fca91f5f314812e449bf0fdeaaceb9314d50d2e",
+    "S0057": "4fd6d93f66d5c942cd9920c46398a9cb578061e540307ef2ae3b5089ae80edd3",
+    "S0058": "febef2a104296066d43c7b9a918ed9f97e4817512652359effa314fdca65edb6",
+    "S0059": "9406ce8a878140b54fe0f6d0818c83c69d1399a3c60cf8c73c216617ab4a73cd",
+    "S0060": "d155926b94922a985fceee1d208ca9ad2ed5f372526a8075d833f4d621d24af1",
+    "S0061": "fe16a83485628d92290014aa5a10242cb7fa249463a3f10418a39c66a508bec7",
+    "S0062": "64e3bf59c5384a27d82014eb86ba7bf886c1d129ddf74b2512c6ad66f902fe4c",
+    "S0063": "b1b398663b4a319361ea4e2277eae1150a6d0b63b08c68fa9cbca3a35b5e4a58",
+    "S0064": "f75fa2bdd8c758f2b06bdefbe79a7f7376dc43397e12ad755909a27b07f821b5",
+    "S0065": "95211ae22e04cf1d266705083c0c8732618fbf06cc9b8b45beed04c683edfec9",
+    "S0066": "e699eabc3259b9853183552938b5861ec6a595724f3be3ecd4b3cb037f7740ab",
+    "S0067": "f0b475fda424b54906e6763c7f08fb1fb178a4a1bfe99227f248654083a4f684",
+    "S0068": "f9d09db77d601c79f313fe438533d1cb76db928a9ab459c184ebbf98cb20b52a",
+    "S0069": "eb02c3a0f423a893dc77812a7f81d6a8eb7cfc654e073764307e058084f03f20",
+    "S0070": "8cfc4b24faf257adac87a0f606ccfa5f8647bbaa71a267c139ff64e38dc7c8ec",
+    "S0071": "9b6d396e619421c526125279c33c06cff37dceca72d606da77bafb48ab4badcf",
+    "S0072": "78096081960ec01d3992a4f2fa5f1e4f62051a7d819f06cfdf9359090dc26215",
+    "S0073": "3e84473d762c84b1f3c7659594473507bc199210ce62d35eeb51661efba76f1b",
+    "S0074": "17c460cf17ac5088715fac27d096cf7c550c7565b25f184752903144ac7c0852",
+    "S0075": "65cf7a0b4ba208394d5916a072b51b4a80eb9d7fdc263b713dffb309cc88e1a3",
+    "S0076": "08e86127fd27440538ab7c73535f810f4b1dd12aa7bf4cbfceded334634c7f6c",
+    "S0077": "457c0281ce28a735726f9e60b45c4d32dbbd00e174507489acf35d905a8516ae",
+    "S0078": "5126ab9551b00183edd8cad8b8fbe2ff870155f86be4398999813e9c38d5d1dc",
+    "S0079": "6053fdaf2a958f4a1d109c1ee31301e8f31f0c8c43f362e6c03de731618f2de4",
+    "S0080": "8f7d1edc4cc7e6d576bfb067447eb878dc74ac5f0a35b5d318ae41bb48e23566",
+    "S0081": "bffbe22aa864fa2c08f8bdeadb8964711fa3bcd8207f845b3376b359d72d0d0f",
+    "S0082": "42cd706dfb25e856518edf02df0955923f5e1022b27cbca19fdfc2dfcc0d8549",
+    "S0083": "dd12d3a799ec5ed7209e74f7de07225539994a50e732a1c02880d7887ceecdf6",
+    "S0084": "3053a40c582875fd4165319fa6b178560a593212ed813d2d850a8829d5a46e92",
+    "S0085": "3a9de25c553d9ddb6e9d62bee5a6227a2151a88ab9191cf0c6d343e064feef36"
+  },
+  "evaluation_windows": [
+    [
+      0,
+      430,
+      690,
+      2344
+    ],
+    [
+      60,
+      5688,
+      628,
+      6192
+    ],
+    [
+      54,
+      6458,
+      628,
+      7000
+    ],
+    [
+      196,
+      7184,
+      491,
+      7616
+    ],
+    [
+      0,
+      7732,
+      690,
+      8900
+    ],
+    [
+      0,
+      9128,
+      620,
+      9766
+    ],
+    [
+      0,
+      11108,
+      564,
+      11976
+    ],
+    [
+      0,
+      13336,
+      690,
+      14282
+    ],
+    [
+      0,
+      15656,
+      690,
+      16368
+    ],
+    [
+      0,
+      16712,
+      690,
+      18024
+    ],
+    [
+      36,
+      20272,
+      676,
+      20944
+    ],
+    [
+      0,
+      23262,
+      690,
+      24064
+    ],
+    [
+      0,
+      26886,
+      690,
+      28136
+    ],
+    [
+      27,
+      31266,
+      604,
+      32608
+    ],
+    [
+      0,
+      35542,
+      690,
+      36008
+    ],
+    [
+      60,
+      2456,
+      660,
+      2692
+    ],
+    [
+      0,
+      3408,
+      690,
+      4970
+    ],
+    [
+      43,
+      12248,
+      654,
+      12616
+    ],
+    [
+      0,
+      9768,
+      690,
+      10968
+    ],
+    [
+      0,
+      36485,
+      690,
+      37728
+    ],
+    [
+      138,
+      44688,
+      534,
+      45266
+    ],
+    [
+      82,
+      46197,
+      598,
+      46635
+    ],
+    [
+      0,
+      48813,
+      690,
+      51179
+    ],
+    [
+      0,
+      51517,
+      690,
+      53554
+    ],
+    [
+      12,
+      62150,
+      582,
+      62779
+    ],
+    [
+      98,
+      66646,
+      590,
+      67410
+    ],
+    [
+      0,
+      72285,
+      690,
+      73387
+    ],
+    [
+      0,
+      76070,
+      690,
+      77030
+    ],
+    [
+      0,
+      81165,
+      690,
+      82515
+    ],
+    [
+      73,
+      82686,
+      615,
+      83822
+    ],
+    [
+      0,
+      87910,
+      690,
+      88667
+    ],
+    [
+      0,
+      90848,
+      690,
+      91711
+    ],
+    [
+      0,
+      91804,
+      690,
+      92578
+    ],
+    [
+      0,
+      93350,
+      690,
+      93872
+    ],
+    [
+      0,
+      99391,
+      690,
+      100386
+    ],
+    [
+      0,
+      104398,
+      690,
+      105690
+    ],
+    [
+      0,
+      106752,
+      690,
+      108255
+    ]
+  ],
+  "regions": [
+    {
+      "id": "LV5_A01",
+      "bounds": [
+        0,
+        430,
+        690,
+        2344
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Opening establishing scene: clouded sky, CAN WE narration, ruined tower and sea. The seam at1280 crosses the sky/tower composition; both original strips belong to this complete illustration. White rows above430 and below2344 separate the composition from subsequent text.",
+      "baseline_reference": "CH05_P001",
+      "source_ids": [
+        "S0001",
+        "S0002"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0001",
+          "original_name": "17390035339991854_Leviathan_5-RITA_AND_I__2__0001.jpg",
+          "source_bounds": [
+            0,
+            430,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            430,
+            690,
+            1280
+          ]
+        },
+        {
+          "source_id": "S0002",
+          "original_name": "17390035341343706_Leviathan_5-RITA_AND_I__2__0002.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1064
+          ],
+          "chapter_bounds": [
+            0,
+            1280,
+            690,
+            2344
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A02",
+      "bounds": [
+        60,
+        5688,
+        628,
+        6192
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Campfire close-up with both CRACKLE sound effects extending beyond the narrow central frame. Preserve the full spread of integrated lettering, flames and logs; surrounding whitespace is exterior.",
+      "baseline_reference": "CH05_P004",
+      "source_ids": [
+        "S0005"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0005",
+          "original_name": "17390035348468908_Leviathan_5-RITA_AND_I__2__0005.jpg",
+          "source_bounds": [
+            60,
+            568,
+            628,
+            1072
+          ],
+          "chapter_bounds": [
+            60,
+            5688,
+            628,
+            6192
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A03",
+      "bounds": [
+        54,
+        6458,
+        628,
+        7000
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Two children beside the campfire within a continuous rectangular cracked-wall composition. Includes seated boy, turned-away girl, fire, floor and full frame. Both outside white margins are exterior. This is not the title card despite the old P005 reference in an earlier run.",
+      "baseline_reference": "CH05_P005",
+      "source_ids": [
+        "S0006"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0006",
+          "original_name": "173900353261496_Leviathan_5-RITA_AND_I__2__0006.jpg",
+          "source_bounds": [
+            54,
+            58,
+            628,
+            600
+          ],
+          "chapter_bounds": [
+            54,
+            6458,
+            628,
+            7000
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A04",
+      "bounds": [
+        196,
+        7184,
+        491,
+        7616
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Small tall inset of girl reaching toward crab, complete feet, crab and two SCRAB effects. Border is visible on all four sides; large surrounding white page area is exterior.",
+      "baseline_reference": "CH05_P006",
+      "source_ids": [
+        "S0006"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0006",
+          "original_name": "173900353261496_Leviathan_5-RITA_AND_I__2__0006.jpg",
+          "source_bounds": [
+            196,
+            784,
+            491,
+            1216
+          ],
+          "chapter_bounds": [
+            196,
+            7184,
+            491,
+            7616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A05",
+      "bounds": [
+        0,
+        7732,
+        690,
+        8900
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Boy pulling weapon line with top IF WE WANT TO SURVIVE thought balloon and lower I HAVE TO GET FOOD FROM THE SEA balloon. Both spiky balloons overlap the same composition; intentional white balloon space must stay.",
+      "baseline_reference": "CH05_P007",
+      "source_ids": [
+        "S0007"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0007",
+          "original_name": "17390035328709634_Leviathan_5-RITA_AND_I__2__0007.jpg",
+          "source_bounds": [
+            0,
+            52,
+            690,
+            1220
+          ],
+          "chapter_bounds": [
+            0,
+            7732,
+            690,
+            8900
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A06",
+      "bounds": [
+        0,
+        9128,
+        620,
+        9766
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Portrait of boy holding weapon with IF IT COMES BACK spiky balloon and CLACK at bottom-left. Top balloon protrudes outside the rectangular art border, so crop begins above that border and extends to native left edge. Next lower balloon is separated by a genuine white gap and leads into the following composition.",
+      "baseline_reference": "CH05_P008",
+      "source_ids": [
+        "S0008"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0008",
+          "original_name": "17390035331584674_Leviathan_5-RITA_AND_I__2__0008.jpg",
+          "source_bounds": [
+            0,
+            168,
+            620,
+            806
+          ],
+          "chapter_bounds": [
+            0,
+            9128,
+            620,
+            9766
+          ]
+        }
+      ],
+      "separate_from": [
+        "LV5_A19"
+      ]
+    },
+    {
+      "id": "LV5_A07",
+      "bounds": [
+        0,
+        11108,
+        564,
+        11976
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Injured father portrait with THAT WAS DADS LAST WISH AFTERALL thought balloon protruding top-left. Keep the full glasses, face, blood marks and rectangular border. Source seam11520 crosses face context and is not a crop boundary.",
+      "baseline_reference": "CH05_P009",
+      "source_ids": [
+        "S0009",
+        "S0010"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0009",
+          "original_name": "17390035335006957_Leviathan_5-RITA_AND_I__2__0009.jpg",
+          "source_bounds": [
+            0,
+            868,
+            564,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            11108,
+            564,
+            11520
+          ]
+        },
+        {
+          "source_id": "S0010",
+          "original_name": "17390035337728392_Leviathan_5-RITA_AND_I__2__0010.jpg",
+          "source_bounds": [
+            0,
+            0,
+            564,
+            456
+          ],
+          "chapter_bounds": [
+            0,
+            11520,
+            564,
+            11976
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A08",
+      "bounds": [
+        0,
+        13336,
+        690,
+        14282
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Full boy-and-weapon action with enormous blue PSSSH integrated above the art and continuous motion strokes through both strips. Feet and complete visible weapon remain; the title-like SFX must not be classified as isolated lettering.",
+      "baseline_reference": "CH05_P012",
+      "source_ids": [
+        "S0011",
+        "S0012"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0011",
+          "original_name": "17390035295916348_Leviathan_5-RITA_AND_I__2__0011.jpg",
+          "source_bounds": [
+            0,
+            536,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            13336,
+            690,
+            14080
+          ]
+        },
+        {
+          "source_id": "S0012",
+          "original_name": "17390035297994011_Leviathan_5-RITA_AND_I__2__0012.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            202
+          ],
+          "chapter_bounds": [
+            0,
+            14080,
+            690,
+            14282
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A09",
+      "bounds": [
+        0,
+        15656,
+        690,
+        16368
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Original close-up of hand operating mechanism with long PSHHH effect protruding above the rectangular border. It is an intentionally close original drawing, not an algorithmic zoom. Preserve native full-width weapon and spray.",
+      "baseline_reference": "CH05_P014",
+      "source_ids": [
+        "S0013"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0013",
+          "original_name": "17390035299543335_Leviathan_5-RITA_AND_I__2__0013.jpg",
+          "source_bounds": [
+            0,
+            296,
+            690,
+            1008
+          ],
+          "chapter_bounds": [
+            0,
+            15656,
+            690,
+            16368
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A10",
+      "bounds": [
+        0,
+        16712,
+        690,
+        18024
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Large action scene with boy lunging/weapon, orange BOOM above frame and long PSHHH below frame. Bottom sound-effect descender continues beyond17860; cut must extend through18024 to preserve it. Seam17920 crosses that descender and must not become final cut.",
+      "baseline_reference": "CH05_P015",
+      "source_ids": [
+        "S0014",
+        "S0015"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0014",
+          "original_name": "17390035303422091_Leviathan_5-RITA_AND_I__2__0014.jpg",
+          "source_bounds": [
+            0,
+            72,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            16712,
+            690,
+            17920
+          ]
+        },
+        {
+          "source_id": "S0015",
+          "original_name": "17390035306132557_Leviathan_5-RITA_AND_I__2__0015.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            104
+          ],
+          "chapter_bounds": [
+            0,
+            17920,
+            690,
+            18024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A11",
+      "bounds": [
+        36,
+        20272,
+        676,
+        20944
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Girl holding crab in glass beside crying boy, with top BOTA ARE YOU CRYING bubble, NO response, and AARGH extending below the frame. All text is embedded; source seam20480 crosses the composition.",
+      "baseline_reference": "CH05_P018",
+      "source_ids": [
+        "S0016",
+        "S0017"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0016",
+          "original_name": "17390035308485201_Leviathan_5-RITA_AND_I__2__0016.jpg",
+          "source_bounds": [
+            36,
+            1072,
+            676,
+            1280
+          ],
+          "chapter_bounds": [
+            36,
+            20272,
+            676,
+            20480
+          ]
+        },
+        {
+          "source_id": "S0017",
+          "original_name": "17390035311521811_Leviathan_5-RITA_AND_I__2__0017.jpg",
+          "source_bounds": [
+            36,
+            0,
+            676,
+            464
+          ],
+          "chapter_bounds": [
+            36,
+            20480,
+            676,
+            20944
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A12",
+      "bounds": [
+        0,
+        23262,
+        690,
+        24064
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Children looking into stairwell. Top THE CRABS WENT DOWN THIS WAY bubble and lower THERE COULD BE SOMETHING USEFUL balloon protrude beyond the frame and remain part of this scene. Keep full-width masonry, figures and staircase.",
+      "baseline_reference": "CH05_P022",
+      "source_ids": [
+        "S0019"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0019",
+          "original_name": "17390035316496867_Leviathan_5-RITA_AND_I__2__0019.jpg",
+          "source_bounds": [
+            0,
+            222,
+            690,
+            1024
+          ],
+          "chapter_bounds": [
+            0,
+            23262,
+            690,
+            24064
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A13",
+      "bounds": [
+        0,
+        26886,
+        690,
+        28136
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Boy seen from behind descending into a dark stairwell with long purple WHOOO integrated above and through the black field. The black background is intentional content, never blank gutter.",
+      "baseline_reference": "CH05_P026",
+      "source_ids": [
+        "S0022"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0022",
+          "original_name": "17390035307369435_Leviathan_5-RITA_AND_I__2__0022.jpg",
+          "source_bounds": [
+            0,
+            6,
+            690,
+            1256
+          ],
+          "chapter_bounds": [
+            0,
+            26886,
+            690,
+            28136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A14",
+      "bounds": [
+        27,
+        31266,
+        604,
+        32608
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Tall reaction portrait including spiky WHA WHAT THE thought balloon, spear shaft, hand and torso. Full border encloses one scene; seam32000 is internal. Top-left balloon protrusion and all bottom shaft pixels must remain.",
+      "baseline_reference": "CH05_P030",
+      "source_ids": [
+        "S0025",
+        "S0026"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0025",
+          "original_name": "17390035314271468_Leviathan_5-RITA_AND_I__2__0025.jpg",
+          "source_bounds": [
+            27,
+            546,
+            604,
+            1280
+          ],
+          "chapter_bounds": [
+            27,
+            31266,
+            604,
+            32000
+          ]
+        },
+        {
+          "source_id": "S0026",
+          "original_name": "17390035317024728_Leviathan_5-RITA_AND_I__2__0026.jpg",
+          "source_bounds": [
+            27,
+            0,
+            604,
+            608
+          ],
+          "chapter_bounds": [
+            27,
+            32000,
+            604,
+            32608
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A15",
+      "bounds": [
+        0,
+        35542,
+        690,
+        36008
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Underwater landscape with diver, spear and foreground fish. All image edges are visible in original source; the large fish is intentionally cut by the native left frame. Seam35840 crosses underwater composition, so reconstruct across it.",
+      "baseline_reference": "CH05_P034",
+      "source_ids": [
+        "S0028",
+        "S0029"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0028",
+          "original_name": "17390035298686558_Leviathan_5-RITA_AND_I__2__0028.jpg",
+          "source_bounds": [
+            0,
+            982,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            35542,
+            690,
+            35840
+          ]
+        },
+        {
+          "source_id": "S0029",
+          "original_name": "17390035300683136_Leviathan_5-RITA_AND_I__2__0029.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            168
+          ],
+          "chapter_bounds": [
+            0,
+            35840,
+            690,
+            36008
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A16",
+      "bounds": [
+        60,
+        2456,
+        660,
+        2692
+      ],
+      "classification": "dialogue_or_narration_only",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Standalone narrative text ...MAKE IT HERE? on white between the opening sea scene and title page. Both text lines belong together as story-critical dialogue and must remain recoverable in review, not be exported as an illustration or discarded as isolated SFX.",
+      "baseline_reference": "CH05_P002",
+      "source_ids": [
+        "S0002",
+        "S0003"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0002",
+          "original_name": "17390035341343706_Leviathan_5-RITA_AND_I__2__0002.jpg",
+          "source_bounds": [
+            60,
+            1176,
+            660,
+            1280
+          ],
+          "chapter_bounds": [
+            60,
+            2456,
+            660,
+            2560
+          ]
+        },
+        {
+          "source_id": "S0003",
+          "original_name": "17390035344452364_Leviathan_5-RITA_AND_I__2__0003.jpg",
+          "source_bounds": [
+            60,
+            0,
+            660,
+            132
+          ],
+          "chapter_bounds": [
+            60,
+            2560,
+            660,
+            2692
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A17",
+      "bounds": [
+        0,
+        3408,
+        690,
+        4970
+      ],
+      "classification": "title_or_credits",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Leviathan logo, CHAPTER5 RITA AND I Part2 and LEE KYUNG TAK / NOH MI YOUNG credits on black-blue fading paint. This is a chapter title/credit card, not story illustration. Retain the full pale brush fade and all credits separately for review.",
+      "baseline_reference": "CH05_P003",
+      "source_ids": [
+        "S0003",
+        "S0004"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0003",
+          "original_name": "17390035344452364_Leviathan_5-RITA_AND_I__2__0003.jpg",
+          "source_bounds": [
+            0,
+            848,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            3408,
+            690,
+            3840
+          ]
+        },
+        {
+          "source_id": "S0004",
+          "original_name": "17390035346598475_Leviathan_5-RITA_AND_I__2__0004.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1130
+          ],
+          "chapter_bounds": [
+            0,
+            3840,
+            690,
+            4970
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A18",
+      "bounds": [
+        43,
+        12248,
+        654,
+        12616
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Single bordered panel of boy inspecting weapon controls. Clear white gutter below12616 separates this from a different small weapon-control panel near12790. Current baseline P010 is this one complete scene; old V2 compound-ID correspondence requires source-coordinate matching.",
+      "baseline_reference": "CH05_P010",
+      "source_ids": [
+        "S0010"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0010",
+          "original_name": "17390035337728392_Leviathan_5-RITA_AND_I__2__0010.jpg",
+          "source_bounds": [
+            43,
+            728,
+            654,
+            1096
+          ],
+          "chapter_bounds": [
+            43,
+            12248,
+            654,
+            12616
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LV5_A19",
+      "bounds": [
+        0,
+        9768,
+        690,
+        10968
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "status": "MANUALLY_REVIEWED",
+      "reviewer": "assistant",
+      "human_approved": false,
+      "bounds_origin": "manual_visual_original_source_context_inspection",
+      "note": "Second independent boy-and-weapon illustration with I WILL PROTECT RITA WITH THIS SWORD thought balloon. Original context shows previous portrait frame ends around9760, then a narrow white corridor before this balloons spikes. Keep this scene distinct from A06, but retain full integrated balloon, arms, torso and weapon through bottom border10964. Seam10240 crosses the figure and must be joined exactly. This is the manually checked split of the earlier compound before original source-coordinate9128\u201310968.",
+      "baseline_reference": "CH05_P008_s01",
+      "source_ids": [
+        "S0008",
+        "S0009"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0008",
+          "original_name": "17390035331584674_Leviathan_5-RITA_AND_I__2__0008.jpg",
+          "source_bounds": [
+            0,
+            808,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            9768,
+            690,
+            10240
+          ]
+        },
+        {
+          "source_id": "S0009",
+          "original_name": "17390035335006957_Leviathan_5-RITA_AND_I__2__0009.jpg",
+          "source_bounds": [
+            0,
+            0,
+            690,
+            728
+          ],
+          "chapter_bounds": [
+            0,
+            10240,
+            690,
+            10968
+          ]
+        }
+      ],
+      "separate_from": [
+        "LV5_A06"
+      ]
+    },
+    {
+      "id": "G_B035",
+      "bounds": [
+        0,
+        36485,
+        690,
+        37728
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "A complete giant reddish fish under an IT IS HUGE spiked bubble, with school-of-fish water background. Source seam crosses the continuous fish background; next spiked bubble starts below the selected exterior gap. Full composition is one scene, including bubble.",
+      "source_ids": [
+        "S0029",
+        "S0030"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0029",
+          "source_order": 29,
+          "source_bounds": [
+            0,
+            645,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            36485,
+            690,
+            37120
+          ]
+        },
+        {
+          "source_id": "S0030",
+          "source_order": 30,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            608
+          ],
+          "chapter_bounds": [
+            0,
+            37120,
+            690,
+            37728
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B035.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B041",
+      "bounds": [
+        138,
+        44688,
+        534,
+        45266
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Inset swimmer reaching toward the egg, with WHAT IS THIS bubble above the panel border. Small figure and reaching hand stay inside source drawing; original narrow frame and projecting bubble preserved.",
+      "source_ids": [
+        "S0035",
+        "S0036"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0035",
+          "source_order": 35,
+          "source_bounds": [
+            138,
+            1168,
+            534,
+            1280
+          ],
+          "chapter_bounds": [
+            138,
+            44688,
+            534,
+            44800
+          ]
+        },
+        {
+          "source_id": "S0036",
+          "source_order": 36,
+          "source_bounds": [
+            138,
+            0,
+            534,
+            466
+          ],
+          "chapter_bounds": [
+            138,
+            44800,
+            534,
+            45266
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B041.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B043",
+      "bounds": [
+        82,
+        46197,
+        598,
+        46635
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Inset close hand touching translucent veined egg. Both BADUMP words extend beyond the colored inset; lower word must stay with this illustration.",
+      "source_ids": [
+        "S0037"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0037",
+          "source_order": 37,
+          "source_bounds": [
+            82,
+            117,
+            598,
+            555
+          ],
+          "chapter_bounds": [
+            82,
+            46197,
+            598,
+            46635
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B043.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B046",
+      "bounds": [
+        0,
+        48813,
+        690,
+        51179
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "First egg vista: full standing swimmer, complete held weapon, many eggs and both BADUMP words. Exact 39/40 source seam runs through egg background and must not become a panel boundary. Large exterior white gaps separate scenes above and below.",
+      "source_ids": [
+        "S0039",
+        "S0040"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0039",
+          "source_order": 39,
+          "source_bounds": [
+            0,
+            173,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            48813,
+            690,
+            49920
+          ]
+        },
+        {
+          "source_id": "S0040",
+          "source_order": 40,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1259
+          ],
+          "chapter_bounds": [
+            0,
+            49920,
+            690,
+            51179
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B046.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B047",
+      "bounds": [
+        0,
+        51517,
+        690,
+        53554
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Second tall egg vista beneath diagonal wreck ceiling, eggs filling foreground, two BADUMP effects. Original41/42 seam continues the egg field without scene change. White exterior below last SFX is excluded.",
+      "source_ids": [
+        "S0041",
+        "S0042"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0041",
+          "source_order": 41,
+          "source_bounds": [
+            0,
+            317,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            51517,
+            690,
+            52480
+          ]
+        },
+        {
+          "source_id": "S0042",
+          "source_order": 42,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1074
+          ],
+          "chapter_bounds": [
+            0,
+            52480,
+            690,
+            53554
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B047.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B056",
+      "bounds": [
+        12,
+        62150,
+        582,
+        62779
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Screaming goggled face inset with large AHHHH white bubble wrapping across top-left edge. Bubble is integrated and must not be cropped away just to trim the white margin.",
+      "source_ids": [
+        "S0049",
+        "S0050"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0049",
+          "source_order": 49,
+          "source_bounds": [
+            12,
+            710,
+            582,
+            1280
+          ],
+          "chapter_bounds": [
+            12,
+            62150,
+            582,
+            62720
+          ]
+        },
+        {
+          "source_id": "S0050",
+          "source_order": 50,
+          "source_bounds": [
+            12,
+            0,
+            582,
+            59
+          ],
+          "chapter_bounds": [
+            12,
+            62720,
+            582,
+            62779
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B056.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B060",
+      "bounds": [
+        98,
+        66646,
+        590,
+        67410
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Tall framed underwater swimmer looking back, reaching arm overhead, large gun/sword across body and damaged shorts/leg retained. Uniform exterior white around the original black frame is trimmed.",
+      "source_ids": [
+        "S0053"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0053",
+          "source_order": 53,
+          "source_bounds": [
+            98,
+            86,
+            590,
+            850
+          ],
+          "chapter_bounds": [
+            98,
+            66646,
+            590,
+            67410
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B060.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B065",
+      "bounds": [
+        0,
+        72285,
+        690,
+        73387
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Boy recoiling on stairs from raised watery hand; giant SPLASH crosses the colored scene into white below. Entire SFX belongs to the action; next illustrated panel begins after an actual white gap.",
+      "source_ids": [
+        "S0057",
+        "S0058"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0057",
+          "source_order": 57,
+          "source_bounds": [
+            0,
+            605,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            72285,
+            690,
+            72960
+          ]
+        },
+        {
+          "source_id": "S0058",
+          "source_order": 58,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            427
+          ],
+          "chapter_bounds": [
+            0,
+            72960,
+            690,
+            73387
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B065.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B069",
+      "bounds": [
+        0,
+        76070,
+        690,
+        77030
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Boy sitting on stairs swinging gun/sword toward the egg creature. AARGH GO AWAY bubble and three SWISH effects belong to one original action composition including the two projecting into white.",
+      "source_ids": [
+        "S0060",
+        "S0061"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0060",
+          "source_order": 60,
+          "source_bounds": [
+            0,
+            550,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            76070,
+            690,
+            76800
+          ]
+        },
+        {
+          "source_id": "S0061",
+          "source_order": 61,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            230
+          ],
+          "chapter_bounds": [
+            0,
+            76800,
+            690,
+            77030
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B069.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B073",
+      "bounds": [
+        0,
+        81165,
+        690,
+        82515
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "One continuous upward staircase-perspective scene with HUFF bubbles and PAT PAT PAT sounds; ceiling hole and foreground blurred stairs preserved. Both projecting white-space lettering and meaningful central opening belong here.",
+      "source_ids": [
+        "S0064",
+        "S0065"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0064",
+          "source_order": 64,
+          "source_bounds": [
+            0,
+            525,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            81165,
+            690,
+            81920
+          ]
+        },
+        {
+          "source_id": "S0065",
+          "source_order": 65,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            595
+          ],
+          "chapter_bounds": [
+            0,
+            81920,
+            690,
+            82515
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B073.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B074",
+      "bounds": [
+        73,
+        82686,
+        615,
+        83822
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Narrow vertical staircase inset with seated exhausted boy and upright full weapon. Top, middle and bottom HUFF bubbles remain attached to this composition; following ERRRGH scene is outside selected white gap.",
+      "source_ids": [
+        "S0065",
+        "S0066"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0065",
+          "source_order": 65,
+          "source_bounds": [
+            73,
+            766,
+            615,
+            1280
+          ],
+          "chapter_bounds": [
+            73,
+            82686,
+            615,
+            83200
+          ]
+        },
+        {
+          "source_id": "S0066",
+          "source_order": 66,
+          "source_bounds": [
+            73,
+            0,
+            615,
+            622
+          ],
+          "chapter_bounds": [
+            73,
+            83200,
+            615,
+            83822
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B074.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B078",
+      "bounds": [
+        0,
+        87910,
+        690,
+        88667
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Dynamic boy overhead strike with DIE bubble and large weapon. Diagonal original bottom edge and its original white triangular corner remain; no attempt to rotate or force widescreen.",
+      "source_ids": [
+        "S0069",
+        "S0070"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0069",
+          "source_order": 69,
+          "source_bounds": [
+            0,
+            870,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            87910,
+            690,
+            88320
+          ]
+        },
+        {
+          "source_id": "S0070",
+          "source_order": 70,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            347
+          ],
+          "chapter_bounds": [
+            0,
+            88320,
+            690,
+            88667
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B078.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B081",
+      "bounds": [
+        0,
+        90848,
+        690,
+        91711
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "High-view boy crouching on hatch debris holding upright weapon, with reaction bubble and entire surrounding stone/wood floor. Distinct blank gutters above and below separate this scene.",
+      "source_ids": [
+        "S0071",
+        "S0072"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0071",
+          "source_order": 71,
+          "source_bounds": [
+            0,
+            1248,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            90848,
+            690,
+            90880
+          ]
+        },
+        {
+          "source_id": "S0072",
+          "source_order": 72,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            831
+          ],
+          "chapter_bounds": [
+            0,
+            90880,
+            690,
+            91711
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B081.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B082",
+      "bounds": [
+        0,
+        91804,
+        690,
+        92578
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Extreme face close-up is the ORIGINAL whole panel, not a zoom imposed on a larger fight. Ellipsis bubble above and DID I KILL IT bubble below remain linked and are retained.",
+      "source_ids": [
+        "S0072",
+        "S0073"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0072",
+          "source_order": 72,
+          "source_bounds": [
+            0,
+            924,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            91804,
+            690,
+            92160
+          ]
+        },
+        {
+          "source_id": "S0073",
+          "source_order": 73,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            418
+          ],
+          "chapter_bounds": [
+            0,
+            92160,
+            690,
+            92578
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B082.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B084",
+      "bounds": [
+        0,
+        93350,
+        690,
+        93872
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Wide rubble-and-hatch scene with boy emerging; THUMP extends above original frame. Full original debris, boy and weapon stay within wide natural composition.",
+      "source_ids": [
+        "S0073",
+        "S0074"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0073",
+          "source_order": 73,
+          "source_bounds": [
+            0,
+            1190,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            93350,
+            690,
+            93440
+          ]
+        },
+        {
+          "source_id": "S0074",
+          "source_order": 74,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            432
+          ],
+          "chapter_bounds": [
+            0,
+            93440,
+            690,
+            93872
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B084.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B092",
+      "bounds": [
+        0,
+        99391,
+        690,
+        100386
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Girl standing on broken ocean-side stone, complete figure, ocean and sky; two SLOOSH effects, lower extending into white, are part of original composition.",
+      "source_ids": [
+        "S0078",
+        "S0079"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0078",
+          "source_order": 78,
+          "source_bounds": [
+            0,
+            831,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            99391,
+            690,
+            99840
+          ]
+        },
+        {
+          "source_id": "S0079",
+          "source_order": 79,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            546
+          ],
+          "chapter_bounds": [
+            0,
+            99840,
+            690,
+            100386
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B092.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B096",
+      "bounds": [
+        0,
+        104398,
+        690,
+        105690
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Distant dark figure at sea under bright cloudy sky, full tall water foreground and both SPLASH words. Meaningful empty sky/water must not be trimmed as blank.",
+      "source_ids": [
+        "S0082",
+        "S0083"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0082",
+          "source_order": 82,
+          "source_bounds": [
+            0,
+            718,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            104398,
+            690,
+            104960
+          ]
+        },
+        {
+          "source_id": "S0083",
+          "source_order": 83,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            730
+          ],
+          "chapter_bounds": [
+            0,
+            104960,
+            690,
+            105690
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B096.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B097",
+      "bounds": [
+        0,
+        106752,
+        690,
+        108255
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Ending startled face with IT IS HERE and IT IS STILL ALIVE spiked bubbles above/below, plus HUFF effects. All original dialogue and full facial composition retained across physical strip seam.",
+      "source_ids": [
+        "S0084",
+        "S0085"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0084",
+          "source_order": 84,
+          "source_bounds": [
+            0,
+            512,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            106752,
+            690,
+            107520
+          ]
+        },
+        {
+          "source_id": "S0085",
+          "source_order": 85,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            735
+          ],
+          "chapter_bounds": [
+            0,
+            107520,
+            690,
+            108255
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B097.png",
+      "tolerance_pixels": 4
+    }
+  ]
+}

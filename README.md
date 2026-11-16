@@ -1,19 +1,9 @@
-# Manga Cropping V3.2 — artwork-first candidate
+# Manga Cropping V3.3 development snapshot
 
-## Download
+This branch contains incremental changes to V3.2 in app/. Read [current status](app/V33_STATUS.md) and [changelog](app/CHANGELOG_V3_3.md). **Real Chapter 1 acceptance is blocked by missing original inputs. This is not a completed V3.3 release.**
 
-[Download the application ZIP](https://github.com/locklockloco/Manga-/raw/refs/heads/main/Manga_V3_2_App.zip)
+[Download this source snapshot](https://github.com/locklockloco/Manga-/archive/refs/heads/v3.3-development.zip). Extract, enter app/, and follow app/README.md for installation. Optional OCR setup is documented in the changelog.
 
-The ZIP contains application Python source, local review UI, tests, dependencies, launchers and installation instructions. It is 225,741 bytes. Optional large artwork examples and historical visual evidence are omitted. Program code matches the previously delivered full V3.2 release.
+Chapter 1 portrait, text/SFX and giant scene regressions remain unverified. No Chapter 1 precision/recall, 194-strip performance or before/after artwork is claimed. Required: original Chapter 1 archive/194 strips, evidence ZIP and reference PNG.
 
-On iPhone: download to Files and tap the ZIP to extract it. Running the application requires Python on a computer. Read README.md inside the extracted folder for Windows/macOS/Linux installation and startup commands.
-
-## Validation and remaining limitations
-
-Supervised-review candidate, not production-ready unattended extraction. Latest recorded regression run: 174 passed, 4 skipped, 4 large tests deselected. Native Windows/macOS startup and a fresh V3.2 large-batch run were not performed.
-
-CH01_P155 has NOT been visually verified because the original Chapter 1 artwork was unavailable. Known giant multi-scene merges remain unresolved. No automatic human approvals. Read ARTWORK_FIRST_REPORT.md inside the package for scope and remaining failures. Historical V3.1 results do not measure the new V3.2 detector.
-
-Use a new output folder to apply artwork-first detection. Previous workspaces retain their saved corrections. Original chapter images remain unchanged.
-
-SHA-256 of ZIP: `c821b90880e8143047c1398cd1f3ee64a2876b8b065a32791eba8b4acb9069f6`.
+The main branch and its V3.2 download remain unchanged. Any Manga_V3_2_App.zip inherited on this branch is the OLD V3.2 package; use app/ for current development code.

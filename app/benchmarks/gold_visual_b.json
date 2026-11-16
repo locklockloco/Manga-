@@ -1,0 +1,965 @@
+{
+  "annotation_method": "manual_visual_inspection",
+  "reviewer": "assistant",
+  "human_approved": false,
+  "provisional": true,
+  "scope": "Assistant visually inspected original raster contexts with surrounding artwork and source seam indicators; these labels are not human approvals or a claim of universal correct boundaries.",
+  "regions": [
+    {
+      "id": "G_B035",
+      "bounds": [
+        0,
+        36485,
+        690,
+        37728
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "A complete giant reddish fish under an IT IS HUGE spiked bubble, with school-of-fish water background. Source seam crosses the continuous fish background; next spiked bubble starts below the selected exterior gap. Full composition is one scene, including bubble.",
+      "source_ids": [
+        "S0029",
+        "S0030"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0029",
+          "source_order": 29,
+          "source_bounds": [
+            0,
+            645,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            36485,
+            690,
+            37120
+          ]
+        },
+        {
+          "source_id": "S0030",
+          "source_order": 30,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            608
+          ],
+          "chapter_bounds": [
+            0,
+            37120,
+            690,
+            37728
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B035.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B041",
+      "bounds": [
+        138,
+        44688,
+        534,
+        45266
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Inset swimmer reaching toward the egg, with WHAT IS THIS bubble above the panel border. Small figure and reaching hand stay inside source drawing; original narrow frame and projecting bubble preserved.",
+      "source_ids": [
+        "S0035",
+        "S0036"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0035",
+          "source_order": 35,
+          "source_bounds": [
+            138,
+            1168,
+            534,
+            1280
+          ],
+          "chapter_bounds": [
+            138,
+            44688,
+            534,
+            44800
+          ]
+        },
+        {
+          "source_id": "S0036",
+          "source_order": 36,
+          "source_bounds": [
+            138,
+            0,
+            534,
+            466
+          ],
+          "chapter_bounds": [
+            138,
+            44800,
+            534,
+            45266
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B041.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B043",
+      "bounds": [
+        82,
+        46197,
+        598,
+        46635
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Inset close hand touching translucent veined egg. Both BADUMP words extend beyond the colored inset; lower word must stay with this illustration.",
+      "source_ids": [
+        "S0037"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0037",
+          "source_order": 37,
+          "source_bounds": [
+            82,
+            117,
+            598,
+            555
+          ],
+          "chapter_bounds": [
+            82,
+            46197,
+            598,
+            46635
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B043.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B046",
+      "bounds": [
+        0,
+        48813,
+        690,
+        51179
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "First egg vista: full standing swimmer, complete held weapon, many eggs and both BADUMP words. Exact 39/40 source seam runs through egg background and must not become a panel boundary. Large exterior white gaps separate scenes above and below.",
+      "source_ids": [
+        "S0039",
+        "S0040"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0039",
+          "source_order": 39,
+          "source_bounds": [
+            0,
+            173,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            48813,
+            690,
+            49920
+          ]
+        },
+        {
+          "source_id": "S0040",
+          "source_order": 40,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1259
+          ],
+          "chapter_bounds": [
+            0,
+            49920,
+            690,
+            51179
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B046.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B047",
+      "bounds": [
+        0,
+        51517,
+        690,
+        53554
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Second tall egg vista beneath diagonal wreck ceiling, eggs filling foreground, two BADUMP effects. Original41/42 seam continues the egg field without scene change. White exterior below last SFX is excluded.",
+      "source_ids": [
+        "S0041",
+        "S0042"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0041",
+          "source_order": 41,
+          "source_bounds": [
+            0,
+            317,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            51517,
+            690,
+            52480
+          ]
+        },
+        {
+          "source_id": "S0042",
+          "source_order": 42,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            1074
+          ],
+          "chapter_bounds": [
+            0,
+            52480,
+            690,
+            53554
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B047.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B056",
+      "bounds": [
+        12,
+        62150,
+        582,
+        62779
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Screaming goggled face inset with large AHHHH white bubble wrapping across top-left edge. Bubble is integrated and must not be cropped away just to trim the white margin.",
+      "source_ids": [
+        "S0049",
+        "S0050"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0049",
+          "source_order": 49,
+          "source_bounds": [
+            12,
+            710,
+            582,
+            1280
+          ],
+          "chapter_bounds": [
+            12,
+            62150,
+            582,
+            62720
+          ]
+        },
+        {
+          "source_id": "S0050",
+          "source_order": 50,
+          "source_bounds": [
+            12,
+            0,
+            582,
+            59
+          ],
+          "chapter_bounds": [
+            12,
+            62720,
+            582,
+            62779
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B056.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B060",
+      "bounds": [
+        98,
+        66646,
+        590,
+        67410
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Tall framed underwater swimmer looking back, reaching arm overhead, large gun/sword across body and damaged shorts/leg retained. Uniform exterior white around the original black frame is trimmed.",
+      "source_ids": [
+        "S0053"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0053",
+          "source_order": 53,
+          "source_bounds": [
+            98,
+            86,
+            590,
+            850
+          ],
+          "chapter_bounds": [
+            98,
+            66646,
+            590,
+            67410
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B060.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B065",
+      "bounds": [
+        0,
+        72285,
+        690,
+        73387
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Boy recoiling on stairs from raised watery hand; giant SPLASH crosses the colored scene into white below. Entire SFX belongs to the action; next illustrated panel begins after an actual white gap.",
+      "source_ids": [
+        "S0057",
+        "S0058"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0057",
+          "source_order": 57,
+          "source_bounds": [
+            0,
+            605,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            72285,
+            690,
+            72960
+          ]
+        },
+        {
+          "source_id": "S0058",
+          "source_order": 58,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            427
+          ],
+          "chapter_bounds": [
+            0,
+            72960,
+            690,
+            73387
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B065.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B069",
+      "bounds": [
+        0,
+        76070,
+        690,
+        77030
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Boy sitting on stairs swinging gun/sword toward the egg creature. AARGH GO AWAY bubble and three SWISH effects belong to one original action composition including the two projecting into white.",
+      "source_ids": [
+        "S0060",
+        "S0061"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0060",
+          "source_order": 60,
+          "source_bounds": [
+            0,
+            550,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            76070,
+            690,
+            76800
+          ]
+        },
+        {
+          "source_id": "S0061",
+          "source_order": 61,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            230
+          ],
+          "chapter_bounds": [
+            0,
+            76800,
+            690,
+            77030
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B069.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B073",
+      "bounds": [
+        0,
+        81165,
+        690,
+        82515
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "One continuous upward staircase-perspective scene with HUFF bubbles and PAT PAT PAT sounds; ceiling hole and foreground blurred stairs preserved. Both projecting white-space lettering and meaningful central opening belong here.",
+      "source_ids": [
+        "S0064",
+        "S0065"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0064",
+          "source_order": 64,
+          "source_bounds": [
+            0,
+            525,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            81165,
+            690,
+            81920
+          ]
+        },
+        {
+          "source_id": "S0065",
+          "source_order": 65,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            595
+          ],
+          "chapter_bounds": [
+            0,
+            81920,
+            690,
+            82515
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B073.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B074",
+      "bounds": [
+        73,
+        82686,
+        615,
+        83822
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Narrow vertical staircase inset with seated exhausted boy and upright full weapon. Top, middle and bottom HUFF bubbles remain attached to this composition; following ERRRGH scene is outside selected white gap.",
+      "source_ids": [
+        "S0065",
+        "S0066"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0065",
+          "source_order": 65,
+          "source_bounds": [
+            73,
+            766,
+            615,
+            1280
+          ],
+          "chapter_bounds": [
+            73,
+            82686,
+            615,
+            83200
+          ]
+        },
+        {
+          "source_id": "S0066",
+          "source_order": 66,
+          "source_bounds": [
+            73,
+            0,
+            615,
+            622
+          ],
+          "chapter_bounds": [
+            73,
+            83200,
+            615,
+            83822
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B074.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B078",
+      "bounds": [
+        0,
+        87910,
+        690,
+        88667
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Dynamic boy overhead strike with DIE bubble and large weapon. Diagonal original bottom edge and its original white triangular corner remain; no attempt to rotate or force widescreen.",
+      "source_ids": [
+        "S0069",
+        "S0070"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0069",
+          "source_order": 69,
+          "source_bounds": [
+            0,
+            870,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            87910,
+            690,
+            88320
+          ]
+        },
+        {
+          "source_id": "S0070",
+          "source_order": 70,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            347
+          ],
+          "chapter_bounds": [
+            0,
+            88320,
+            690,
+            88667
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B078.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B081",
+      "bounds": [
+        0,
+        90848,
+        690,
+        91711
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "High-view boy crouching on hatch debris holding upright weapon, with reaction bubble and entire surrounding stone/wood floor. Distinct blank gutters above and below separate this scene.",
+      "source_ids": [
+        "S0071",
+        "S0072"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0071",
+          "source_order": 71,
+          "source_bounds": [
+            0,
+            1248,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            90848,
+            690,
+            90880
+          ]
+        },
+        {
+          "source_id": "S0072",
+          "source_order": 72,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            831
+          ],
+          "chapter_bounds": [
+            0,
+            90880,
+            690,
+            91711
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B081.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B082",
+      "bounds": [
+        0,
+        91804,
+        690,
+        92578
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Extreme face close-up is the ORIGINAL whole panel, not a zoom imposed on a larger fight. Ellipsis bubble above and DID I KILL IT bubble below remain linked and are retained.",
+      "source_ids": [
+        "S0072",
+        "S0073"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0072",
+          "source_order": 72,
+          "source_bounds": [
+            0,
+            924,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            91804,
+            690,
+            92160
+          ]
+        },
+        {
+          "source_id": "S0073",
+          "source_order": 73,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            418
+          ],
+          "chapter_bounds": [
+            0,
+            92160,
+            690,
+            92578
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B082.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B084",
+      "bounds": [
+        0,
+        93350,
+        690,
+        93872
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Wide rubble-and-hatch scene with boy emerging; THUMP extends above original frame. Full original debris, boy and weapon stay within wide natural composition.",
+      "source_ids": [
+        "S0073",
+        "S0074"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0073",
+          "source_order": 73,
+          "source_bounds": [
+            0,
+            1190,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            93350,
+            690,
+            93440
+          ]
+        },
+        {
+          "source_id": "S0074",
+          "source_order": 74,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            432
+          ],
+          "chapter_bounds": [
+            0,
+            93440,
+            690,
+            93872
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B084.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B092",
+      "bounds": [
+        0,
+        99391,
+        690,
+        100386
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Girl standing on broken ocean-side stone, complete figure, ocean and sky; two SLOOSH effects, lower extending into white, are part of original composition.",
+      "source_ids": [
+        "S0078",
+        "S0079"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0078",
+          "source_order": 78,
+          "source_bounds": [
+            0,
+            831,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            99391,
+            690,
+            99840
+          ]
+        },
+        {
+          "source_id": "S0079",
+          "source_order": 79,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            546
+          ],
+          "chapter_bounds": [
+            0,
+            99840,
+            690,
+            100386
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B092.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B096",
+      "bounds": [
+        0,
+        104398,
+        690,
+        105690
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Distant dark figure at sea under bright cloudy sky, full tall water foreground and both SPLASH words. Meaningful empty sky/water must not be trimmed as blank.",
+      "source_ids": [
+        "S0082",
+        "S0083"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0082",
+          "source_order": 82,
+          "source_bounds": [
+            0,
+            718,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            104398,
+            690,
+            104960
+          ]
+        },
+        {
+          "source_id": "S0083",
+          "source_order": 83,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            730
+          ],
+          "chapter_bounds": [
+            0,
+            104960,
+            690,
+            105690
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B096.png",
+      "tolerance_pixels": 4
+    },
+    {
+      "id": "G_B097",
+      "bounds": [
+        0,
+        106752,
+        690,
+        108255
+      ],
+      "classification": "illustration",
+      "reviewed": true,
+      "reviewer": "assistant",
+      "human_approved": false,
+      "review_method": "manual_visual_inspection_of_original_source_context",
+      "note": "Ending startled face with IT IS HERE and IT IS STILL ALIVE spiked bubbles above/below, plus HUFF effects. All original dialogue and full facial composition retained across physical strip seam.",
+      "source_ids": [
+        "S0084",
+        "S0085"
+      ],
+      "source_regions": [
+        {
+          "source_id": "S0084",
+          "source_order": 84,
+          "source_bounds": [
+            0,
+            512,
+            690,
+            1280
+          ],
+          "chapter_bounds": [
+            0,
+            106752,
+            690,
+            107520
+          ]
+        },
+        {
+          "source_id": "S0085",
+          "source_order": 85,
+          "source_bounds": [
+            0,
+            0,
+            690,
+            735
+          ],
+          "chapter_bounds": [
+            0,
+            107520,
+            690,
+            108255
+          ]
+        }
+      ],
+      "evidence": "benchmarks/evidence/G_B097.png",
+      "tolerance_pixels": 4
+    }
+  ]
+}
